@@ -58,6 +58,11 @@ Selected Projects
 A reasoning-aware framework that mitigates bias inside intermediate LLM reasoning steps, not just final answers. Introduced the **Reasoning Bias Rate** metric and combined process supervision, fairness-aware RL, and inference-time guided decoding to substantially reduce bias while preserving baseline accuracy.\
 *Tech: Python · PyTorch · OpenR · inference-time scaling · fairness-aware RL*
 
+**Sprout: A Kindness-Based Social Plant App** &mdash; *2026*\
+A full-stack, bilingual social web app where friends send kind notes that grow into leaves on a personal plant. Built authentication, profile customization, neighbor workflows, public share links, responsive UI, dark mode, and Supabase-backed persistence.\
+[[live app](https://sprout-flowers.vercel.app/)] [[code](https://github.com/clairekim59/sprout-flowers)]\
+*Tech: HTML/CSS · vanilla JavaScript · Supabase/Postgres · Vercel · i18n*
+
 **Fair Language Modeling via Parameter-Efficient Methods** &mdash; *2025*\
 Reduced social biases in BERT and LLaMA for toxicity and hate-speech detection using reinforcement learning combined with parameter-efficient fine-tuning.\
 *Tech: Python · PyTorch · Hugging Face · LoRA · RL*

@@ -18,6 +18,20 @@ Ongoing
 * Reduced bias scores by **>20%** on the BBQ benchmark while preserving accuracy within 1% across GPT-3.5-Turbo and LLaMA-2-13B baselines.
 * *Tech: Python · PyTorch · OpenR · Inference-time scaling · Fairness-aware RL ·  benchmark*
 
+2026
+------
+**Sprout: A Kindness-Based Social Plant App** &mdash; *2026*
+
+![Sprout app preview]({{ base_path }}/images/sprout-preview.png)
+
+* Built a bilingual social web app where friends and visitors send kind notes that grow into leaves on each user's personal plant.
+* Designed and implemented authentication, profile customization, neighbor/friend workflows, garden history, public plant sharing, responsive UI, dark mode, and Korean/English support.
+* Engineered Supabase-backed persistence with Postgres Auth, Row-Level Security policies, RPC functions, database triggers, and Vercel serverless link previews.
+
+[Try the live app](https://sprout-flowers.vercel.app/){: .btn .btn--primary} [View code](https://github.com/clairekim59/sprout-flowers){: .btn}
+
+* *Tech: HTML/CSS · vanilla JavaScript · Supabase/Postgres · Vercel · i18n · responsive UI*
+
 2025
 ------
 **MASTOPIA: Transparency in LLM-Assisted Intelligence Analysis** 
