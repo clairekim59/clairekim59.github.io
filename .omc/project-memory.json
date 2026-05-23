@@ -1,17 +1,9 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1777846719732,
-  "projectRoot": "/Users/nayoung/ASU Dropbox/Kim Nayoung/ASU/nayoungkim94.github.io",
+  "lastScanned": 1779516589665,
+  "projectRoot": "/Users/nayoung/ASU Dropbox/Kim Nayoung/ASU/clairekim59.github.io",
   "techStack": {
     "languages": [
-      {
-        "name": "JavaScript/TypeScript",
-        "version": ">= 0.10.0",
-        "confidence": "high",
-        "markers": [
-          "package.json"
-        ]
-      },
       {
         "name": "Ruby",
         "version": null,
@@ -23,18 +15,14 @@
     ],
     "frameworks": [],
     "packageManager": "bundler",
-    "runtime": "Node.js 0.10.0"
+    "runtime": null
   },
   "build": {
     "buildCommand": null,
     "testCommand": null,
     "lintCommand": null,
     "devCommand": null,
-    "scripts": {
-      "uglify": "uglifyjs assets/js/vendor/jquery/jquery-1.12.4.min.js assets/js/plugins/jquery.fitvids.js assets/js/plugins/jquery.greedy-navigation.js assets/js/plugins/jquery.magnific-popup.js assets/js/plugins/jquery.smooth-scroll.min.js assets/js/plugins/stickyfill.min.js assets/js/_main.js -c -m -o assets/js/main.min.js",
-      "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
-      "build:js": "npm run uglify"
-    }
+    "scripts": {}
   },
   "conventions": {
     "namingStyle": null,
@@ -59,27 +47,18 @@
       "path": "_data",
       "purpose": null,
       "fileCount": 4,
-      "lastAccessed": 1777846719453,
+      "lastAccessed": 1779516589628,
       "keyFiles": [
         "authors.yml",
         "navigation.yml",
         "ui-text.yml"
       ]
     },
-    "_drafts": {
-      "path": "_drafts",
-      "purpose": null,
-      "fileCount": 1,
-      "lastAccessed": 1777846719482,
-      "keyFiles": [
-        "post-draft.md"
-      ]
-    },
     "_includes": {
       "path": "_includes",
       "purpose": null,
       "fileCount": 31,
-      "lastAccessed": 1777846719509,
+      "lastAccessed": 1779516589629,
       "keyFiles": [
         "analytics.html",
         "archive-single-cv.html",
@@ -92,7 +71,7 @@
       "path": "_layouts",
       "purpose": null,
       "fileCount": 7,
-      "lastAccessed": 1777846719511,
+      "lastAccessed": 1779516589631,
       "keyFiles": [
         "archive-taxonomy.html",
         "archive.html",
@@ -104,254 +83,72 @@
     "_pages": {
       "path": "_pages",
       "purpose": null,
-      "fileCount": 19,
-      "lastAccessed": 1777846719514,
+      "fileCount": 8,
+      "lastAccessed": 1779516589634,
       "keyFiles": [
         "404.md",
         "about.md",
-        "archive-layout-with-content.md",
-        "category-archive.html",
-        "collection-archive.html"
-      ]
-    },
-    "_portfolio": {
-      "path": "_portfolio",
-      "purpose": null,
-      "fileCount": 2,
-      "lastAccessed": 1777846719515,
-      "keyFiles": [
-        "portfolio-1.md",
-        "portfolio-2.html"
-      ]
-    },
-    "_posts": {
-      "path": "_posts",
-      "purpose": null,
-      "fileCount": 5,
-      "lastAccessed": 1777846719518,
-      "keyFiles": [
-        "2012-08-14-blog-post-1.md",
-        "2013-08-14-blog-post-2.md",
-        "2014-08-14-blog-post-3.md",
-        "2015-08-14-blog-post-4.md",
-        "2199-01-01-future-post.md"
-      ]
-    },
-    "_publications": {
-      "path": "_publications",
-      "purpose": null,
-      "fileCount": 3,
-      "lastAccessed": 1777846719521,
-      "keyFiles": [
-        "2009-10-01-paper-title-number-1.md",
-        "2010-10-01-paper-title-number-2.md",
-        "2015-10-01-paper-title-number-3.md"
+        "cv.md",
+        "favicon.ico",
+        "projects.md"
       ]
     },
     "_sass": {
       "path": "_sass",
       "purpose": null,
-      "fileCount": 19,
-      "lastAccessed": 1777846719527,
+      "fileCount": 20,
+      "lastAccessed": 1779516589638,
       "keyFiles": [
         "_animations.scss",
         "_archive.scss",
         "_base.scss",
         "_buttons.scss",
-        "_footer.scss"
-      ]
-    },
-    "_talks": {
-      "path": "_talks",
-      "purpose": null,
-      "fileCount": 4,
-      "lastAccessed": 1777846719547,
-      "keyFiles": [
-        "2012-03-01-talk-1.md",
-        "2013-03-01-tutorial-1.md",
-        "2014-02-01-talk-2.md",
-        "2014-03-01-talk-3.md"
-      ]
-    },
-    "_teaching": {
-      "path": "_teaching",
-      "purpose": null,
-      "fileCount": 2,
-      "lastAccessed": 1777846719549,
-      "keyFiles": [
-        "2014-spring-teaching-1.md",
-        "2015-spring-teaching-2.md"
+        "_custom.scss"
       ]
     },
     "assets": {
       "path": "assets",
       "purpose": "Static assets",
       "fileCount": 1,
-      "lastAccessed": 1777846719549,
+      "lastAccessed": 1779516589641,
       "keyFiles": []
     },
     "files": {
       "path": "files",
       "purpose": null,
-      "fileCount": 4,
-      "lastAccessed": 1777846719550,
+      "fileCount": 3,
+      "lastAccessed": 1779516589645,
       "keyFiles": [
         "CSE_472_report.pdf",
         "ClaireKim_resume.pdf",
-        "NayoungKim_Resume_2026.pdf",
         "Nayoung_CoverLetter.pdf"
       ]
     },
     "images": {
       "path": "images",
       "purpose": null,
-      "fileCount": 13,
-      "lastAccessed": 1777846719573,
+      "fileCount": 14,
+      "lastAccessed": 1779516589647,
       "keyFiles": [
         "browserconfig.xml",
         "editing-talk.png",
+        "favicon.svg",
         "foo-bar-identity-th.jpg",
-        "foo-bar-identity.jpg",
-        "image-alignment-1200x4002.jpg"
-      ]
-    },
-    "markdown_generator": {
-      "path": "markdown_generator",
-      "purpose": null,
-      "fileCount": 9,
-      "lastAccessed": 1777846719599,
-      "keyFiles": [
-        "PubsFromBib.ipynb",
-        "publications.ipynb",
-        "publications.py",
-        "publications.tsv",
-        "pubsFromBib.py"
-      ]
-    },
-    "talkmap": {
-      "path": "talkmap",
-      "purpose": null,
-      "fileCount": 2,
-      "lastAccessed": 1777846719600,
-      "keyFiles": [
-        "map.html",
-        "org-locations.js"
+        "foo-bar-identity.jpg"
       ]
     }
   },
   "hotPaths": [
     {
-      "path": "_pages/about.md",
-      "accessCount": 23,
-      "lastAccessed": 1777917382456,
-      "type": "file"
-    },
-    {
       "path": "_config.yml",
-      "accessCount": 7,
-      "lastAccessed": 1777873676892,
+      "accessCount": 6,
+      "lastAccessed": 1778981086731,
       "type": "file"
     },
     {
-      "path": "_pages/projects.md",
-      "accessCount": 5,
-      "lastAccessed": 1777875732096,
-      "type": "file"
-    },
-    {
-      "path": "_sass/_custom.scss",
-      "accessCount": 5,
-      "lastAccessed": 1777917324597,
-      "type": "file"
-    },
-    {
-      "path": "_sass/_variables.scss",
-      "accessCount": 4,
-      "lastAccessed": 1777848039714,
-      "type": "file"
-    },
-    {
-      "path": "_data/navigation.yml",
-      "accessCount": 3,
-      "lastAccessed": 1777863226373,
-      "type": "file"
-    },
-    {
-      "path": "_includes/head.html",
-      "accessCount": 3,
-      "lastAccessed": 1777917334769,
-      "type": "file"
-    },
-    {
-      "path": "_pages/publications.md",
+      "path": "README.md",
       "accessCount": 2,
-      "lastAccessed": 1777847322835,
-      "type": "file"
-    },
-    {
-      "path": "_includes/author-profile.html",
-      "accessCount": 2,
-      "lastAccessed": 1777847617285,
-      "type": "file"
-    },
-    {
-      "path": "_pages/cv.md",
-      "accessCount": 2,
-      "lastAccessed": 1777848051905,
-      "type": "file"
-    },
-    {
-      "path": "assets/css/main.scss",
-      "accessCount": 2,
-      "lastAccessed": 1777848258769,
-      "type": "file"
-    },
-    {
-      "path": "_includes/masthead.html",
-      "accessCount": 2,
-      "lastAccessed": 1777917344941,
-      "type": "file"
-    },
-    {
-      "path": "_includes/scripts.html",
-      "accessCount": 2,
-      "lastAccessed": 1777917359813,
-      "type": "file"
-    },
-    {
-      "path": "_pages/talks.html",
-      "accessCount": 1,
-      "lastAccessed": 1777846894283,
-      "type": "file"
-    },
-    {
-      "path": "_pages/talks.md",
-      "accessCount": 1,
-      "lastAccessed": 1777847349684,
-      "type": "file"
-    },
-    {
-      "path": "Gemfile",
-      "accessCount": 1,
-      "lastAccessed": 1777847706873,
-      "type": "file"
-    },
-    {
-      "path": "_sass/_sidebar.scss",
-      "accessCount": 1,
-      "lastAccessed": 1777848180381,
-      "type": "file"
-    },
-    {
-      "path": "files/ClaireKim_resume.pdf",
-      "accessCount": 1,
-      "lastAccessed": 1777873922360,
-      "type": "file"
-    },
-    {
-      "path": "images/favicon.svg",
-      "accessCount": 1,
-      "lastAccessed": 1777917303282,
+      "lastAccessed": 1778981089169,
       "type": "file"
     }
   ],
