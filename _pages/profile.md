@@ -39,7 +39,7 @@ Experience
 * **SDE Intern**, AMD &mdash; Austin, TX · Fall 2024
 * **Research Assistant**, DHS-CAOE &mdash; Tempe, AZ · 2022 – 2025
 * **Research Assistant**, ONR &mdash; Tempe, AZ · 2021 – 2022
-* **Research Assistant**, Korea University DMIS Lab &mdash; Seoul, KR · 2017 – 2019
+* **Research Assistant**, Korea University DMIS Lab &mdash; Seoul, Republic of Korea · 2017 – 2019
 
 </div>
 
@@ -64,7 +64,7 @@ Technical Strengths
   <span class="skill-pill">Inference-time scaling</span></div></div>
   <div class="skill-row"><div class="skill-label">ML & DL</div><div class="skill-list"><span class="skill-pill">PyTorch</span> 
   <span class="skill-pill">TensorFlow</span>
-  <span class="skill-pill">Hugging Face</span> 
+  <span class="skill-pill">HuggingFace</span> 
   <span class="skill-pill">Transformers</span> 
   <span class="skill-pill">PEFT</span> 
   <span class="skill-pill">Accelerate</span> 
