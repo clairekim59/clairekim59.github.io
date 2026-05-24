@@ -9,7 +9,7 @@ main:
       - title: "Research Projects"
         url: /projects/
       - title: "Devs"
-        url: /projects/trustworthy-systems/
+        url: /projects/devs/
 
   - title: "Publications"
     url: /publications/

@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research & Engineering Profile"
+title: "Profile"
 permalink: /profile/
 author_profile: true
 ---

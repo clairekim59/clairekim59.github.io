@@ -1,14 +1,14 @@
 ---
 layout: archive
 title: "Devs"
-permalink: /projects/trustworthy-systems/
+permalink: /projects/devs/
 author_profile: true
+redirect_from:
+  - /projects/trustworthy-systems/
 ---
 
 {% include base_path %}
 
-Devs
-======
 
 These projects translate my trustworthy AI research direction into interactive systems, demos, and product-quality prototypes. The goal is to connect model behavior, transparency, evaluation, and user interaction in real systems while also showing the engineering judgment needed to build and deploy them.
 

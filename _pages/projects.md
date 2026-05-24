@@ -9,21 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Devs
-------
-Trustworthy AI research translated into interactive demos and deployable interfaces.
-
-**MASTOPIA: Transparency-Aware LLM Analysis Demo** &mdash; *2025*
-* Built a Streamlit system version of MASTOPIA, connecting trustworthy AI research on transparency and reliance to an interactive LLM-assisted analysis workflow.
-* Implemented a multi-agent architecture with supervisor, retriever, and general AI agents; model information controls; chat UI; session management; and activity logging for research evaluation.
-* Translates the MAST transparency study into a usable demo for exploring how model transparency, evidence retrieval, and interaction design affect human verification behavior.
-
-[Try the demo](https://mastopia-spr2025.streamlit.app/){: .btn .btn--primary} [View code](https://github.com/clairekim59/mastopia-spr2025){: .btn}
-
-* *Tech: Python · Streamlit · LangChain / LangGraph · OpenAI API · FAISS · Google Cloud / Firestore · RAG · activity logging*
-
-See more in [Devs]({{ base_path }}/projects/trustworthy-systems/).
-
 Research Projects
 ------
 
@@ -74,6 +59,7 @@ Ongoing
 * Developed a novel AI design framework for building trustworthy decision-support systems.
 * Demonstrated effectiveness through a deployed AI system that positively impacted user trust perceptions.
 * Conducted association analysis between user ratings and trust-impacting factors, providing a theoretical basis for the framework.
+* Released implementation artifacts for the READIT and Facewise prototypes supporting the MAST-based design workflow. [[code](https://github.com/clairekim59/PADTHAI-MM)]
 * *Tech: Python · Decision-support system design · User study & evaluation*
 
 2022
@@ -81,12 +67,19 @@ Ongoing
 **READIT: Reporting Assistant for Defense and Intelligence Tasks**
 * Trained a Transformer-based text-summarization system for intelligence analysts.
 * Built a user-friendly web interface using Node.js and Google Cloud, enabling analysts to access summarized reports in production.
+* Public implementation is available through the PADTHAI-MM research-code repository. [[code](https://github.com/clairekim59/PADTHAI-MM/tree/main/readit)]
 * *Tech: Python · Transformers · Node.js · Google Cloud Platform*
 
 **Facewise: AI-based Face ID Verification System**
 * Built a face ID verification system for security screening with reliable identity authentication.
 * Implemented face matching with CNNs and ResNet, fine-tuning to optimize verification performance.
+* Public implementation is available through the PADTHAI-MM research-code repository. [[code](https://github.com/clairekim59/PADTHAI-MM/tree/main/facewise)]
 * *Tech: Python · PyTorch · CNN · ResNet*
+
+**Bridging the Gap: Online and Offline COVID-19 Data**
+* Released reproducibility code for a published social-computing study comparing online and offline COVID-19 signals.
+* Implemented topic modeling, matrix factorization, preprocessing, and comparison workflows for analyzing cross-source commonality and differences. [[paper](https://arxiv.org/pdf/2208.03907.pdf)] [[code](https://github.com/clairekim59/Bridging-the-Gap)]
+* *Tech: Python · topic modeling · matrix factorization · social computing*
 
 2021
 ------
