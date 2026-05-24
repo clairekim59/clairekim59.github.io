@@ -1,15 +1,15 @@
 # main navigation links
 main:
+  - title: "Profile"
+    url: /profile/
+
   - title: "Projects"
     url: /projects/
     children:
       - title: "Research Projects"
         url: /projects/
-      - title: "Sprout App"
-        url: /projects/sprout/
-
-  - title: "Profile"
-    url: /profile/
+      - title: "Devs"
+        url: /projects/trustworthy-systems/
 
   - title: "Publications"
     url: /publications/

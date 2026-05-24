@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-Recruiter Snapshot
+Research & Engineering Overview
 ------
 <div class="snapshot-grid" markdown="0">
   <div class="snapshot-item">
@@ -24,9 +24,9 @@ Recruiter Snapshot
   </div>
 </div>
 
-Research Fit
+Research Direction
 ------
-I am a strong fit for teams hiring for **trustworthy AI, NLP/LLM research, applied science, model evaluation, and AI safety / reliability**. I bring experience translating ambiguous AI quality questions into measurable evaluation protocols, then using those signals to improve models and systems.
+My work focuses on **trustworthy AI, NLP/LLM research, applied science, model evaluation, and AI safety / reliability**. I translate ambiguous AI quality questions into measurable evaluation protocols, then use those signals to improve models and systems.
 
 I have worked as a research assistant at the [DHS Center for Accelerating Operational Efficiency (CAOE)](https://caoe.asu.edu/) and the Data Mining and Machine Learning (DMML) Lab, advised by [Dr. Huan Liu](https://scholar.google.com/citations?hl=en&user=Dzf46C8AAAAJ) and [Dr. Mickey Mancenido](https://scholar.google.com/citations?user=f_0QDJUAAAAJ&hl=en). I previously earned my B.S. and M.E. at Korea University, where I was advised by [Dr. Jaewoo Kang](https://dmis.korea.ac.kr/home).
 
@@ -56,7 +56,7 @@ Technical Strengths
   <div class="skill-row"><div class="skill-label">Methods</div><div class="skill-list">Bayesian inference, uncertainty quantification, statistical analysis, human-subject study design, Jupyter</div></div>
 </div>
 
-Role Targets
+Where I Can Contribute
 ------
 * **Applied Scientist / Research Scientist:** trustworthy LLMs, NLP, model evaluation, fairness, hallucination mitigation, and AI reliability.
 * **ML Engineer / AI Engineer:** evaluation infrastructure, RAG and LLM systems, Python ML pipelines, cloud-backed prototypes, and production-oriented AI workflows.

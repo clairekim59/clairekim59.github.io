@@ -9,6 +9,21 @@ redirect_from:
 
 {% include base_path %}
 
+Devs
+------
+Trustworthy AI research translated into interactive demos and deployable interfaces.
+
+**MASTOPIA: Transparency-Aware LLM Analysis Demo** &mdash; *2025*
+* Built a Streamlit system version of MASTOPIA, connecting trustworthy AI research on transparency and reliance to an interactive LLM-assisted analysis workflow.
+* Implemented a multi-agent architecture with supervisor, retriever, and general AI agents; model information controls; chat UI; session management; and activity logging for research evaluation.
+* Translates the MAST transparency study into a usable demo for exploring how model transparency, evidence retrieval, and interaction design affect human verification behavior.
+
+[Try the demo](https://mastopia-spr2025.streamlit.app/){: .btn .btn--primary} [View code](https://github.com/clairekim59/mastopia-spr2025){: .btn}
+
+* *Tech: Python · Streamlit · LangChain / LangGraph · OpenAI API · FAISS · Google Cloud / Firestore · RAG · activity logging*
+
+See more in [Devs]({{ base_path }}/projects/trustworthy-systems/).
+
 Research Projects
 ------
 
@@ -27,6 +42,7 @@ Ongoing
 * Built **MASTOPIA**, a multi-agent RAG system (supervisor → retriever → generator agents) powered by GPT-4 / GPT-3.5 that operationalizes Multisource AI Scorecard Table (MAST) tradecraft standards through prompt engineering.
 * Designed and ran a 2³ factorial human-subject study (n = 304) varying LLM performance, MAST transparency, and task severity, with behavioral logging of verification activity.
 * Found that high-transparency outputs **did not improve performance** and in marginal conditions decreased it &mdash; evidence of overreliance from information overload &mdash; motivating adaptive / on-demand transparency design.
+* Built an interactive Streamlit demo version for exploring the system workflow. [[demo](https://mastopia-spr2025.streamlit.app/)] [[code](https://github.com/clairekim59/mastopia-spr2025)]
 * *Tech: Python · GPT-4 / GPT-3.5 · RAG · multi-agent LLM · vector DB · prompt engineering · Flask · zero-inflated Poisson regression · ridit analysis · Prolific / Qualtrics human-subject design*
 
 **Bayesian Learning for Uncertainty-Aware Hallucination Mitigation** 
