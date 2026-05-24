@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Devs"
+title: "Developments"
 permalink: /projects/devs/
 author_profile: true
 redirect_from:
@@ -17,11 +17,6 @@ MASTOPIA: Transparency-Aware LLM Analysis Demo
 **MASTOPIA** is a Streamlit demo for LLM-assisted intelligence analysis. It operationalizes MAST-style transparency ideas through an interactive workflow with model conditions, evidence retrieval, model information, session management, and activity logging.
 
 [Try the demo](https://mastopia-spr2025.streamlit.app/){: .btn .btn--primary} [View code](https://github.com/clairekim59/mastopia-spr2025){: .btn}
-
-**Research connection**
-* Supports my work on how transparency affects user verification, reliance, and decision quality in LLM-assisted analysis.
-* Turns an experimental research system into a usable interface for exploring model transparency and human-AI interaction.
-* Provides a demo surface for studying how trustworthy AI signals should be exposed to users without creating information overload.
 
 **System highlights**
 * Multi-agent architecture with supervisor, retriever, and general AI agents.

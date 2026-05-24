@@ -9,9 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Research Projects
-------
-
 Ongoing
 ------
 **Reasoning-Level Fairness in LLMs** &mdash; *Under submission*
