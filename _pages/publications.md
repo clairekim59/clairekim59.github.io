@@ -17,7 +17,7 @@ A complete list is also available on my [Google Scholar profile]({{ site.author.
 Myke C. Cohen, **Nayoung Kim**, Yang Ba, Anna Pan, Shawaiz Bhatti, Pouria Salehi, James Sung, Erik Blasch, Michelle V. Mancenido, Erin K. Chiou\
 *AI Magazine, 2025.*\
 
-<div class="resource-links" markdown="0"><a class="resource-link" href="https://arxiv.org/pdf/2401.13850.pdf">PDF</a><a class="resource-link" href="https://github.com/clairekim59/PADTHAI-MM">Code</a></div>
+<div class="resource-links" markdown="0"><a class="resource-link" href="https://arxiv.org/pdf/2401.13850.pdf">PDF</a> <a class="resource-link" href="https://github.com/clairekim59/PADTHAI-MM">Code</a></div>
 
 2024
 ------
@@ -25,7 +25,7 @@ Myke C. Cohen, **Nayoung Kim**, Yang Ba, Anna Pan, Shawaiz Bhatti, Pouria Salehi
 **Nayoung Kim**, David Mosallanezhad, Lu Cheng, Michelle V. Mancenido, Huan Liu\
 *International Conference on Social Networks Analysis and Mining (ASONAM), 2024.*\
 
-<div class="resource-links" markdown="0"><a class="resource-link" href="https://browse.arxiv.org/pdf/2309.15176.pdf">PDF</a><a class="resource-link" href="https://github.com/Davood-M/RobustStanceDet">Code</a><a class="resource-link" href="https://drive.google.com/file/d/1RtgulFR78yQ-OGqjv2FrbUC0vTiJgyEU/view?usp=drive_link">Slides</a></div>
+<div class="resource-links" markdown="0"><a class="resource-link" href="https://browse.arxiv.org/pdf/2309.15176.pdf">PDF</a> <a class="resource-link" href="https://github.com/Davood-M/RobustStanceDet">Code</a> <a class="resource-link" href="https://drive.google.com/file/d/1RtgulFR78yQ-OGqjv2FrbUC0vTiJgyEU/view?usp=drive_link">Slides</a></div>
 
 2023
 ------
@@ -41,10 +41,10 @@ Pouria Salehi, Yang Ba, **Nayoung Kim**, David Mosallanezhad, Anna Pan, Myke C. 
 Lu Cheng, **Nayoung Kim**, Huan Liu\
 *Proceedings of the 29th International Conference on Computational Linguistics (COLING), 2022.*\
 
-<div class="resource-links" markdown="0"><a class="resource-link" href="https://arxiv.org/pdf/2208.13899.pdf">PDF</a><a class="resource-link" href="https://github.com/GitHubLuCheng/Implementation-of-JoSEC-COLING-22">Code</a></div>
+<div class="resource-links" markdown="0"><a class="resource-link" href="https://arxiv.org/pdf/2208.13899.pdf">PDF</a> <a class="resource-link" href="https://github.com/GitHubLuCheng/Implementation-of-JoSEC-COLING-22">Code</a></div>
 
 **Bridging the Gap: Commonality and Differences between Online and Offline COVID-19 Data**\
 **Nayoung Kim**, Ahmadreza Mosallanezhad, Lu Cheng, Baoxin Li, Huan Liu\
 *15th International Conference on Social Computing, Behavioral-Cultural Modeling, & Prediction and Behavior Representation in Modeling and Simulation (SBP-BRiMS), 2022.*\
 
-<div class="resource-links" markdown="0"><a class="resource-link" href="https://arxiv.org/pdf/2208.03907.pdf">PDF</a><a class="resource-link" href="https://github.com/clairekim59/Bridging-the-Gap">Code</a></div>
+<div class="resource-links" markdown="0"><a class="resource-link" href="https://arxiv.org/pdf/2208.03907.pdf">PDF</a> <a class="resource-link" href="https://github.com/clairekim59/Bridging-the-Gap">Code</a></div>
