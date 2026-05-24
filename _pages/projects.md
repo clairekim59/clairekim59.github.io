@@ -13,11 +13,18 @@ Ongoing
 ------
 **Reasoning-Level Fairness in LLMs** &mdash; *Under submission*
 * Built a reasoning-aware framework for bias identification and mitigation in LLMs, modeling reasoning as Q → {R} → A to analyze how stereotypes emerge during intermediate steps.
-* Introduced the **Reasoning Bias Rate (RBR)** metric, the first measure quantifying unsupported demographic assumptions in reasoning traces (a complementary signal beyond answer-level bias).
+* Introduced a new metric that first measures quantifying unsupported demographic assumptions in reasoning traces (a complementary signal beyond answer-level bias).
 * Hybrid mitigation: process supervision with counterfactual augmentation, fairness-aware RL rewards, and inference-time guided decoding with fairness verifiers (built on OpenR).
-* Reduced bias scores by **>20%** on the BBQ benchmark while preserving accuracy within 1% across GPT-3.5-Turbo and LLaMA-2-13B baselines.
+* Reduced bias scores on the BBQ benchmark while preserving accuracy within 1% across GPT-3.5-Turbo and LLaMA-2-13B baselines.
 
 <div class="tech-stack" markdown="0"><span class="tech-stack__label">Tech</span> <span>Python</span> <span>PyTorch</span> <span>OpenR</span> <span>Inference-time scaling</span> <span>Fairness-aware RL</span> <span>Benchmark</span></div>
+
+
+**Bayesian Learning for Uncertainty-Aware Hallucination Mitigation** 
+* Designing an uncertainty-aware LLM system using Bayesian inference to detect and mitigate hallucinations in production settings.
+* Developing evaluation workflows that demonstrate hallucination detection at scale.
+
+<div class="tech-stack" markdown="0"><span class="tech-stack__label">Tech</span> <span>Python</span> <span>PyTorch</span> <span>Bayesian methods</span> <span>LLM evaluation</span></div>
 
 2025
 ------
@@ -31,11 +38,6 @@ Ongoing
 
 <div class="tech-stack" markdown="0"><span class="tech-stack__label">Tech</span> <span>Python</span> <span>GPT-4 / GPT-3.5</span> <span>RAG</span> <span>Multi-agent LLM</span> <span>Vector DB</span> <span>Prompt engineering</span> <span>Flask</span> <span>Zero-inflated Poisson regression</span> <span>Ridit analysis</span> <span>Prolific / Qualtrics human-subject design</span></div>
 
-**Bayesian Learning for Uncertainty-Aware Hallucination Mitigation** 
-* Designing an uncertainty-aware LLM system using Bayesian inference to detect and mitigate hallucinations in production settings.
-* Developing evaluation workflows that demonstrate hallucination detection at scale.
-
-<div class="tech-stack" markdown="0"><span class="tech-stack__label">Tech</span> <span>Python</span> <span>PyTorch</span> <span>Bayesian methods</span> <span>LLM evaluation</span></div>
 
 2024
 ------
@@ -90,13 +92,6 @@ Ongoing
 
 <div class="tech-stack" markdown="0"><span class="tech-stack__label">Tech</span> <span>Python</span> <span>PyTorch</span> <span>CNN</span> <span>ResNet</span></div>
 
-**Bridging the Gap: Online and Offline COVID-19 Data**
-* Released reproducibility code for a published social-computing study comparing online and offline COVID-19 signals.
-* Implemented topic modeling, matrix factorization, preprocessing, and comparison workflows for analyzing cross-source commonality and differences. 
-
-<span class="resource-links resource-links--inline" markdown="0"><a class="btn btn--accent-outline" href="ttps://arxiv.org/pdf/2208.03907.pdf">Paper</a> <a class="resource-link" href="https://github.com/clairekim59/Bridging-the-Gap">Code</a></span>
-
-<div class="tech-stack" markdown="0"><span class="tech-stack__label">Tech</span> <span>Python</span> <span>Topic modeling</span> <span>Matrix factorization</span> <span>Social computing</span></div>
 
 2021
 ------
