@@ -14,7 +14,10 @@ MASTOPIA: Transparency-Aware LLM Analysis Demo
 ------
 **MASTOPIA** is a Streamlit demo for LLM-assisted intelligence analysis. It operationalizes MAST-style transparency ideas through an interactive workflow with model conditions, evidence retrieval, model information, session management, and activity logging.
 
-[Try the demo](https://mastopia-spr2025.streamlit.app/){: .btn .btn--primary} [View code](https://github.com/clairekim59/mastopia-spr2025){: .btn}
+<p class="action-links">
+  <a class="btn btn--primary" href="https://mastopia-spr2025.streamlit.app/">Try the demo</a>
+  <a class="btn btn--accent-outline" href="https://github.com/clairekim59/mastopia-spr2025">View code</a>
+</p>
 
 **System highlights**
 * Multi-agent architecture with supervisor, retriever, and general AI agents.
@@ -28,7 +31,10 @@ Sprout: Product-Quality Engineering Build
 ------
 **Sprout** is not a research project, but it shows my interest in building usable real-world systems with care for interaction quality, reliability, and user-facing product details.
 
-[View Sprout project page]({{ base_path }}/projects/sprout/){: .btn} [Try Sprout](https://sprout-flowers.vercel.app/){: .btn .btn--primary} [View code](https://github.com/clairekim59/sprout-flowers){: .btn}
+<p class="action-links">
+  <a class="btn btn--primary" href="https://sprout-flowers.vercel.app/">Try Sprout</a>
+  <a class="btn btn--accent-outline" href="https://github.com/clairekim59/sprout-flowers">View code</a>
+</p>
 
 * Full-stack bilingual social app with authentication, profiles, public sharing, responsive UI, dark mode, and Supabase-backed persistence.
 * Built with a high-quality agentic coding workflow while retaining ownership of product direction, architecture, testing, and final code quality.

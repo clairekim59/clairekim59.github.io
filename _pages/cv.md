@@ -9,7 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-A resume version is available [here]({{ base_path }}/files/ClaireKim_resume.pdf).
 
 Education
 ------
