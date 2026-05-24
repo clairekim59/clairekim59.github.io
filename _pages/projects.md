@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+Research Projects
+------
+
 Ongoing
 ------
 **Reasoning-Level Fairness in LLMs** &mdash; *Under submission*
@@ -17,20 +20,6 @@ Ongoing
 * Hybrid mitigation: process supervision with counterfactual augmentation, fairness-aware RL rewards, and inference-time guided decoding with fairness verifiers (built on OpenR).
 * Reduced bias scores by **>20%** on the BBQ benchmark while preserving accuracy within 1% across GPT-3.5-Turbo and LLaMA-2-13B baselines.
 * *Tech: Python · PyTorch · OpenR · Inference-time scaling · Fairness-aware RL ·  benchmark*
-
-2026
-------
-**Sprout: A Kindness-Based Social Plant App** &mdash; *2026*
-
-![Sprout app preview]({{ base_path }}/images/sprout-preview.png)
-
-* Built a bilingual social web app where friends and visitors send kind notes that grow into leaves on each user's personal plant.
-* Designed and implemented authentication, profile customization, neighbor/friend workflows, garden history, public plant sharing, responsive UI, dark mode, and Korean/English support.
-* Engineered Supabase-backed persistence with Postgres Auth, Row-Level Security policies, RPC functions, database triggers, and Vercel serverless link previews.
-
-[Try the live app](https://sprout-flowers.vercel.app/){: .btn .btn--primary} [View code](https://github.com/clairekim59/sprout-flowers){: .btn}
-
-* *Tech: HTML/CSS · vanilla JavaScript · Supabase/Postgres · Vercel · i18n · responsive UI*
 
 2025
 ------
@@ -96,3 +85,16 @@ Ongoing
 * Extracted biomedical entities and identified relations using the Comparative Toxicogenomics Database (CTD) via distant supervision.
 * Implemented and trained a tree-RNN model (SPINN) combined with a word–character embedding model.
 * *Tech: Python · TensorFlow · Tree-RNN · Distant supervision*
+
+Additional Development Experience
+------
+These projects show hands-on product and full-stack engineering experience alongside my primary research work.
+
+**Sprout: A Kindness-Based Social Plant App** &mdash; *2026*
+* Built a bilingual social web app where friends and visitors send kind notes that grow into leaves on each user's personal plant.
+* Implemented authentication, profile customization, neighbor/friend workflows, public sharing, responsive UI, dark mode, Korean/English support, and Supabase-backed persistence.
+* *Tech: HTML/CSS · vanilla JavaScript · Supabase/Postgres · Vercel · i18n · responsive UI*
+
+[Try the live app](https://sprout-flowers.vercel.app/){: .btn .btn--primary} [View code](https://github.com/clairekim59/sprout-flowers){: .btn}
+
+![Sprout app preview]({{ base_path }}/images/sprout-preview.png)
