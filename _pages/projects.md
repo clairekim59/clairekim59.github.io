@@ -93,7 +93,8 @@ These projects show hands-on product and full-stack engineering experience along
 **Sprout: A Kindness-Based Social Plant App** &mdash; *2026*
 * Built a bilingual social web app where friends and visitors send kind notes that grow into leaves on each user's personal plant.
 * Implemented authentication, profile customization, neighbor/friend workflows, public sharing, responsive UI, dark mode, Korean/English support, and Supabase-backed persistence.
-* *Tech: HTML/CSS · vanilla JavaScript · Supabase/Postgres · Vercel · i18n · responsive UI*
+* Used a high-quality agentic coding workflow to accelerate implementation while maintaining ownership of product direction, architecture decisions, testing, and final code quality.
+* *Tech: HTML/CSS · vanilla JavaScript · Supabase/Postgres · Vercel · i18n · responsive UI · agentic coding*
 
 [Try the live app](https://sprout-flowers.vercel.app/){: .btn .btn--primary} [View code](https://github.com/clairekim59/sprout-flowers){: .btn}
 

@@ -8,18 +8,54 @@ redirect_from:
   - /about.html
 ---
 
-About
+Applied AI Researcher Building Trustworthy LLM Systems
 ======
 
-I am **Claire (Nayoung) Kim**, a Computer Science Ph.D. candidate at the [School of Computing and Augmented Intelligence (SCAI)](https://scai.engineering.asu.edu/) at Arizona State University. My research advances trustworthiness and truthfulness in AI, with the goal of building fair, robust, and accurate NLP and LLM systems &mdash; spanning fairness, bias mitigation, robustness, and human-centered evaluation.
+I am **Claire (Nayoung) Kim**, a Computer Science Ph.D. candidate at the [School of Computing and Augmented Intelligence (SCAI)](https://scai.engineering.asu.edu/) at Arizona State University. I build and evaluate trustworthy NLP and LLM systems, with research spanning fairness, bias mitigation, hallucination, robustness, and human-centered AI evaluation.
 
-I have worked as a research assistant at the [DHS Center for Accelerating Operational Efficiency (CAOE)](https://caoe.asu.edu/) and the Data Mining and Machine Learning (DMML) Lab, advised by [Dr. Huan Liu](https://scholar.google.com/citations?hl=en&user=Dzf46C8AAAAJ) and [Dr. Mickey Mancenido](https://scholar.google.com/citations?user=f_0QDJUAAAAJ&hl=en). I previously earned my B.S. and M.E. at Korea University, where I was advised by [Dr. Jaewoo Kang](https://dmis.korea.ac.kr/home).
+My work is strongest at the intersection of rigorous research and practical AI systems: defining measurable failure modes, designing mitigation methods, running careful evaluations, and building usable ML/LLM prototypes.
 
-<div class="open-to">
-<strong>Currently seeking</strong> full-time <strong>Applied Scientist / ML Engineer / Research Scientist</strong> roles starting Summer 2026.
+<div class="role-tags" markdown="0">
+  <span>Applied Scientist</span>
+  <span>Research Scientist</span>
+  <span>AI/ML Engineer</span>
+  <span>NLP / LLM Systems</span>
 </div>
 
-<a class="btn btn--primary" href="{{ base_path }}/files/ClaireKim_resume.pdf"><i class="fas fa-file-pdf"></i> Download Resume</a>
+<div class="open-to">
+<strong>Currently seeking</strong> full-time <strong>Applied Scientist, Research Scientist, ML Engineer, and AI Engineer</strong> roles starting Summer 2026.
+</div>
+
+<p class="profile-actions">
+  <a class="btn btn--primary" href="{{ base_path }}/files/ClaireKim_resume.pdf"><i class="fas fa-file-pdf"></i> Download Resume</a>
+  <a class="btn btn--inverse" href="{{ base_path }}/projects/">Selected Projects</a>
+  <a class="btn btn--inverse" href="{{ base_path }}/publications/">Publications</a>
+</p>
+
+
+Recruiter Snapshot
+------
+<div class="snapshot-grid" markdown="0">
+  <div class="snapshot-item">
+    <h3>Research depth</h3>
+    <p>LLM fairness, reasoning-time bias, hallucination mitigation, robust NLP, stance detection, and human-centered evaluation.</p>
+  </div>
+  <div class="snapshot-item">
+    <h3>Applied AI systems</h3>
+    <p>RAG, multi-agent LLM workflows, LLM-as-a-judge evaluation, synthetic QA generation, and uncertainty-aware model assessment.</p>
+  </div>
+  <div class="snapshot-item">
+    <h3>Engineering execution</h3>
+    <p>Python ML pipelines, PyTorch/Hugging Face experimentation, cloud deployment, backend prototypes, and full-stack product builds.</p>
+  </div>
+</div>
+
+
+Research Fit
+------
+I am a strong fit for teams hiring for **trustworthy AI, NLP/LLM research, applied science, model evaluation, and AI safety / reliability**. I bring experience translating ambiguous AI quality questions into measurable evaluation protocols, then using those signals to improve models and systems.
+
+I have worked as a research assistant at the [DHS Center for Accelerating Operational Efficiency (CAOE)](https://caoe.asu.edu/) and the Data Mining and Machine Learning (DMML) Lab, advised by [Dr. Huan Liu](https://scholar.google.com/citations?hl=en&user=Dzf46C8AAAAJ) and [Dr. Mickey Mancenido](https://scholar.google.com/citations?user=f_0QDJUAAAAJ&hl=en). I previously earned my B.S. and M.E. at Korea University, where I was advised by [Dr. Jaewoo Kang](https://dmis.korea.ac.kr/home).
 
 
 Experience
@@ -36,18 +72,17 @@ Experience
 </div>
 
 
-Skills
+Technical Strengths
 ------
 <div class="skills" markdown="0">
-  <div class="skill-row"><div class="skill-label">Languages</div><div class="skill-list">Python, SQL, JavaScript</div></div>
+  <div class="skill-row"><div class="skill-label">Research Areas</div><div class="skill-list">Trustworthy AI, fairness and bias mitigation, hallucination evaluation, robust NLP, human-centered AI, model reliability</div></div>
+  <div class="skill-row"><div class="skill-label">LLM Systems</div><div class="skill-list">RAG, vector DBs (Weaviate, Chroma, Faiss), LLM-as-a-judge, synthetic QA generation, multi-agent LLM, prompt engineering, inference-time scaling</div></div>
   <div class="skill-row"><div class="skill-label">ML & DL</div><div class="skill-list">PyTorch, TensorFlow, Hugging Face (Transformers, PEFT, Accelerate, Datasets), Pandas, NumPy</div></div>
-  <div class="skill-row"><div class="skill-label">Fine-tuning</div><div class="skill-list">Supervised fine-tuning (SFT) · classification · forecasting · RLHF · parameter-efficient methods (LoRA, P-tuning)</div></div>
-  <div class="skill-row"><div class="skill-label">LLM Systems</div><div class="skill-list">RAG, vector DBs (Weaviate, Chroma, Faiss), LLM-as-a-judge, synthetic QA generation, multi-agent LLM, hallucination mitigation, prompt engineering, inference-time scaling</div></div>
-  <div class="skill-row"><div class="skill-label">Frameworks</div><div class="skill-list">LangChain, LlamaIndex, Node.js, Flask, Streamlit</div></div>
-  <div class="skill-row"><div class="skill-label">AI-Assisted Dev</div><div class="skill-list">Claude Code, Cursor, GitHub Copilot, agentic coding workflows, MCP (Model Context Protocol)</div></div>
-  <div class="skill-row"><div class="skill-label">Production & MLOps</div><div class="skill-list">End-to-end CI/CD pipelines, model serving, Python packaging, inference optimization (throughput / latency), AWS (SageMaker, S3, Redshift, Glue, Lambda, CodeBuild), GCP, Docker, WandB, MLflow</div></div>
-  <div class="skill-row"><div class="skill-label">NLP & Models</div><div class="skill-list">Claude, GPT-4o, Llama-3, Mistral, DeepSeek, BERT · topic modeling, sentiment & stance detection, text summarization</div></div>
-  <div class="skill-row"><div class="skill-label">Methods & Tooling</div><div class="skill-list">Bayesian inference &amp; uncertainty quantification · Git · Linux / shell · Jupyter</div></div>
+  <div class="skill-row"><div class="skill-label">Fine-tuning</div><div class="skill-list">Supervised fine-tuning (SFT), classification, forecasting, RLHF, parameter-efficient methods (LoRA, P-tuning)</div></div>
+  <div class="skill-row"><div class="skill-label">Engineering</div><div class="skill-list">Python, SQL, JavaScript, Flask, Streamlit, Node.js, Docker, Git, Linux, CI/CD workflows</div></div>
+  <div class="skill-row"><div class="skill-label">Cloud & MLOps</div><div class="skill-list">AWS (SageMaker, S3, Redshift, Glue, Lambda, CodeBuild), GCP, model serving, inference optimization, WandB, MLflow</div></div>
+  <div class="skill-row"><div class="skill-label">Models</div><div class="skill-list">Claude, GPT-4o, Llama-3, Mistral, DeepSeek, BERT, T5</div></div>
+  <div class="skill-row"><div class="skill-label">Methods</div><div class="skill-list">Bayesian inference, uncertainty quantification, statistical analysis, human-subject study design, Jupyter</div></div>
 </div>
 
 
@@ -70,9 +105,9 @@ Additional Development Experience
 ------
 
 **Sprout: A Kindness-Based Social Plant App** &mdash; *2026*\
-A full-stack, bilingual social web app included to show product-building experience alongside my research work. Built authentication, profile customization, neighbor workflows, public share links, responsive UI, dark mode, and Supabase-backed persistence.\
+A full-stack, bilingual social web app included to show product-building experience alongside my research work. Built authentication, profile customization, neighbor workflows, public share links, responsive UI, dark mode, and Supabase-backed persistence using a high-quality agentic coding workflow.\
 [[live app](https://sprout-flowers.vercel.app/)] [[code](https://github.com/clairekim59/sprout-flowers)]\
-*Tech: HTML/CSS · vanilla JavaScript · Supabase/Postgres · Vercel · i18n*
+*Tech: HTML/CSS · vanilla JavaScript · Supabase/Postgres · Vercel · i18n · agentic coding*
 
 See the [full project list]({{ base_path }}/projects/).
 
