@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Selected Projects"
+title: "Research Projects"
 permalink: /projects/
 author_profile: true
 redirect_from:
@@ -85,17 +85,3 @@ Ongoing
 * Extracted biomedical entities and identified relations using the Comparative Toxicogenomics Database (CTD) via distant supervision.
 * Implemented and trained a tree-RNN model (SPINN) combined with a word–character embedding model.
 * *Tech: Python · TensorFlow · Tree-RNN · Distant supervision*
-
-Additional Development Experience
-------
-These projects show hands-on product and full-stack engineering experience alongside my primary research work.
-
-**Sprout: A Kindness-Based Social Plant App** &mdash; *2026*
-* Built a bilingual social web app where friends and visitors send kind notes that grow into leaves on each user's personal plant.
-* Implemented authentication, profile customization, neighbor/friend workflows, public sharing, responsive UI, dark mode, Korean/English support, and Supabase-backed persistence.
-* Used a high-quality agentic coding workflow to accelerate implementation while maintaining ownership of product direction, architecture decisions, testing, and final code quality.
-* *Tech: HTML/CSS · vanilla JavaScript · Supabase/Postgres · Vercel · i18n · responsive UI · agentic coding*
-
-[Try the live app](https://sprout-flowers.vercel.app/){: .btn .btn--primary} [View code](https://github.com/clairekim59/sprout-flowers){: .btn}
-
-![Sprout app preview]({{ base_path }}/images/sprout-preview.png)

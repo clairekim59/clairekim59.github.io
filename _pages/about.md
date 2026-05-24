@@ -28,62 +28,17 @@ My work is strongest at the intersection of rigorous research and practical AI s
 
 <p class="profile-actions">
   <a class="btn btn--primary" href="{{ base_path }}/files/ClaireKim_resume.pdf"><i class="fas fa-file-pdf"></i> Download Resume</a>
-  <a class="btn btn--inverse" href="{{ base_path }}/projects/">Selected Projects</a>
+  <a class="btn btn--inverse" href="{{ base_path }}/profile/">Profile</a>
+  <a class="btn btn--inverse" href="{{ base_path }}/projects/">Research Projects</a>
   <a class="btn btn--inverse" href="{{ base_path }}/publications/">Publications</a>
 </p>
 
 
-Recruiter Snapshot
+Research Focus
 ------
-<div class="snapshot-grid" markdown="0">
-  <div class="snapshot-item">
-    <h3>Research depth</h3>
-    <p>LLM fairness, reasoning-time bias, hallucination mitigation, robust NLP, stance detection, and human-centered evaluation.</p>
-  </div>
-  <div class="snapshot-item">
-    <h3>Applied AI systems</h3>
-    <p>RAG, multi-agent LLM workflows, LLM-as-a-judge evaluation, synthetic QA generation, and uncertainty-aware model assessment.</p>
-  </div>
-  <div class="snapshot-item">
-    <h3>Engineering execution</h3>
-    <p>Python ML pipelines, PyTorch/Hugging Face experimentation, cloud deployment, backend prototypes, and full-stack product builds.</p>
-  </div>
-</div>
-
-
-Research Fit
-------
-I am a strong fit for teams hiring for **trustworthy AI, NLP/LLM research, applied science, model evaluation, and AI safety / reliability**. I bring experience translating ambiguous AI quality questions into measurable evaluation protocols, then using those signals to improve models and systems.
-
-I have worked as a research assistant at the [DHS Center for Accelerating Operational Efficiency (CAOE)](https://caoe.asu.edu/) and the Data Mining and Machine Learning (DMML) Lab, advised by [Dr. Huan Liu](https://scholar.google.com/citations?hl=en&user=Dzf46C8AAAAJ) and [Dr. Mickey Mancenido](https://scholar.google.com/citations?user=f_0QDJUAAAAJ&hl=en). I previously earned my B.S. and M.E. at Korea University, where I was advised by [Dr. Jaewoo Kang](https://dmis.korea.ac.kr/home).
-
-
-Experience
-------
-<div class="timeline" markdown="1">
-
-* **Applied Scientist Intern**, Amazon &mdash; Bellevue, WA · Fall 2025
-* **AI/ML Intern**, AMD &mdash; Austin, TX · Summer 2025
-* **SDE Intern**, AMD &mdash; Austin, TX · Fall 2024
-* **Research Assistant**, DHS-CAOE &mdash; Tempe, AZ · 2022 – 2025
-* **Research Assistant**, ONR &mdash; Tempe, AZ · 2021 – 2022
-* **Research Assistant**, Korea University DMIS Lab &mdash; Seoul, KR · 2017 – 2019
-
-</div>
-
-
-Technical Strengths
-------
-<div class="skills" markdown="0">
-  <div class="skill-row"><div class="skill-label">Research Areas</div><div class="skill-list">Trustworthy AI, fairness and bias mitigation, hallucination evaluation, robust NLP, human-centered AI, model reliability</div></div>
-  <div class="skill-row"><div class="skill-label">LLM Systems</div><div class="skill-list">RAG, vector DBs (Weaviate, Chroma, Faiss), LLM-as-a-judge, synthetic QA generation, multi-agent LLM, prompt engineering, inference-time scaling</div></div>
-  <div class="skill-row"><div class="skill-label">ML & DL</div><div class="skill-list">PyTorch, TensorFlow, Hugging Face (Transformers, PEFT, Accelerate, Datasets), Pandas, NumPy</div></div>
-  <div class="skill-row"><div class="skill-label">Fine-tuning</div><div class="skill-list">Supervised fine-tuning (SFT), classification, forecasting, RLHF, parameter-efficient methods (LoRA, P-tuning)</div></div>
-  <div class="skill-row"><div class="skill-label">Engineering</div><div class="skill-list">Python, SQL, JavaScript, Flask, Streamlit, Node.js, Docker, Git, Linux, CI/CD workflows</div></div>
-  <div class="skill-row"><div class="skill-label">Cloud & MLOps</div><div class="skill-list">AWS (SageMaker, S3, Redshift, Glue, Lambda, CodeBuild), GCP, model serving, inference optimization, WandB, MLflow</div></div>
-  <div class="skill-row"><div class="skill-label">Models</div><div class="skill-list">Claude, GPT-4o, Llama-3, Mistral, DeepSeek, BERT, T5</div></div>
-  <div class="skill-row"><div class="skill-label">Methods</div><div class="skill-list">Bayesian inference, uncertainty quantification, statistical analysis, human-subject study design, Jupyter</div></div>
-</div>
+* **Trustworthy LLMs:** fairness, reasoning-time bias, hallucination mitigation, robustness, and model reliability.
+* **Evaluation and applied science:** LLM-as-a-judge workflows, uncertainty-aware evaluation, human-subject studies, and statistical analysis.
+* **AI systems:** RAG, multi-agent LLM systems, synthetic QA generation, PyTorch/Hugging Face experimentation, and deployment-oriented prototypes.
 
 
 Selected Research Projects
@@ -101,15 +56,15 @@ Reduced social biases in BERT and LLaMA for toxicity and hate-speech detection u
 A multi-agent RAG system operationalizing MAST tradecraft standards, evaluated through a large human-subject study. Showed that adding transparency features did **not** improve performance and can induce overreliance &mdash; motivating adaptive, on-demand transparency.\
 *Tech: Python · GPT-4 · RAG · multi-agent LLM · vector DB · human-subject study*
 
-Additional Development Experience
+Engineering Signal
 ------
 
 **Sprout: A Kindness-Based Social Plant App** &mdash; *2026*\
-A full-stack, bilingual social web app included to show product-building experience alongside my research work. Built authentication, profile customization, neighbor workflows, public share links, responsive UI, dark mode, and Supabase-backed persistence using a high-quality agentic coding workflow.\
-[[live app](https://sprout-flowers.vercel.app/)] [[code](https://github.com/clairekim59/sprout-flowers)]\
+A full-stack, bilingual social app included to show product-building experience alongside my research work. Built with a high-quality agentic coding workflow while retaining ownership of product direction, architecture, review, and final code quality.\
+[[project page]({{ base_path }}/projects/sprout/)] [[live app](https://sprout-flowers.vercel.app/)] [[code](https://github.com/clairekim59/sprout-flowers)]\
 *Tech: HTML/CSS · vanilla JavaScript · Supabase/Postgres · Vercel · i18n · agentic coding*
 
-See the [full project list]({{ base_path }}/projects/).
+See the [full research project list]({{ base_path }}/projects/).
 
 
 Selected Publications
@@ -124,10 +79,5 @@ Myke C. Cohen, **Nayoung Kim**, Yang Ba, et al.\
 **Nayoung Kim**, David Mosallanezhad, Lu Cheng, Michelle V. Mancenido, Huan Liu\
 *ASONAM, 2024.*\
 [[pdf](https://browse.arxiv.org/pdf/2309.15176.pdf)] [[code](https://github.com/Davood-M/RobustStanceDet)]
-
-**Debiasing Word Embeddings with Nonlinear Geometry**\
-Lu Cheng, **Nayoung Kim**, Huan Liu\
-*COLING, 2022.*\
-[[pdf](https://arxiv.org/pdf/2208.13899.pdf)] [[code](https://github.com/GitHubLuCheng/Implementation-of-JoSEC-COLING-22)]
 
 See the [full publication list]({{ base_path }}/publications/).

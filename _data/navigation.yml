@@ -2,6 +2,14 @@
 main:
   - title: "Projects"
     url: /projects/
+    children:
+      - title: "Research Projects"
+        url: /projects/
+      - title: "Sprout App"
+        url: /projects/sprout/
+
+  - title: "Profile"
+    url: /profile/
 
   - title: "Publications"
     url: /publications/

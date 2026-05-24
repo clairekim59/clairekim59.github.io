@@ -129,6 +129,80 @@ em { color: $dark-gray; }
     letter-spacing: -0.01em;
     color: $darker-gray;
   }
+
+  .nav-dropdown {
+    position: relative;
+
+    &:hover .nav-dropdown__menu,
+    &:focus-within .nav-dropdown__menu {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  }
+
+  .nav-dropdown__toggle:after {
+    content: "";
+    display: inline-block;
+    margin-left: 0.4em;
+    border-left: 0.25em solid transparent;
+    border-right: 0.25em solid transparent;
+    border-top: 0.32em solid currentColor;
+    vertical-align: 0.12em;
+  }
+
+  .visible-links .nav-dropdown__menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 20;
+    min-width: 12.5rem;
+    margin: 0;
+    padding: 0.35rem 0;
+    list-style: none;
+    background: #fff;
+    border: 1px solid $lighter-gray;
+    border-radius: 4px;
+    box-shadow: 0 8px 20px rgba($navy, 0.12);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(6px);
+    transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s ease;
+
+    li {
+      display: block;
+      white-space: nowrap;
+    }
+
+    a {
+      margin: 0;
+      padding: 0.55rem 0.8rem;
+      font-size: 0.9em;
+
+      &:before { display: none; }
+
+      &:hover {
+        background: rgba($navy, 0.06);
+        color: $navy;
+      }
+    }
+  }
+
+  .hidden-links .nav-dropdown__toggle:after {
+    display: none;
+  }
+
+  .hidden-links .nav-dropdown__menu {
+    margin: 0;
+    padding: 0 0 0 0.85rem;
+    list-style: none;
+
+    a {
+      font-size: 0.95em;
+      padding-top: 0.45rem;
+      padding-bottom: 0.45rem;
+    }
+  }
 }
 
 /* ---------- Sidebar / author profile ---------- */
@@ -454,6 +528,17 @@ em { color: $dark-gray; }
     a { color: #e2e8f0; }
     a:hover { color: #93c5fd; }
     .masthead__menu-item--lg a { color: #f1f5f9; }
+
+    .visible-links .nav-dropdown__menu {
+      background: #0a1228;
+      border-color: #1e293b;
+      box-shadow: 0 8px 20px rgba(#000, 0.3);
+
+      a:hover {
+        background: #1e293b;
+        color: #93c5fd;
+      }
+    }
   }
 
   .page__content {
