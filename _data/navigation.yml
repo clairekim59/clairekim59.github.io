@@ -8,7 +8,7 @@ main:
     children:
       - title: "Research Projects"
         url: /projects/
-      - title: "Devs"
+      - title: "Developments"
         url: /projects/devs/
 
   - title: "Publications"

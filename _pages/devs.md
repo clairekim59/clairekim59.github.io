@@ -22,7 +22,7 @@ MASTOPIA: Transparency-Aware LLM Analysis Demo
 * Session management and activity logging for research evaluation.
 * RAG-oriented stack using LangChain / LangGraph, OpenAI APIs, FAISS, and Google Cloud / Firestore components.
 
-*Tech: Python · Streamlit · LangChain / LangGraph · OpenAI API · FAISS · Google Cloud / Firestore · RAG · activity logging*
+<div class="tech-stack" markdown="0"><span class="tech-stack__label">Tech</span><span>Python</span><span>Streamlit</span><span>LangChain / LangGraph</span><span>OpenAI API</span><span>FAISS</span><span>Google Cloud / Firestore</span><span>RAG</span><span>Activity logging</span></div>
 
 Sprout: Product-Quality Engineering Build
 ------

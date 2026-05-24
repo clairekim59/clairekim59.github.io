@@ -8,8 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Applied AI Researcher <br>
-Building Trustworthy LLM Systems
+Hi,
 ======
 
 I am **Claire (Nayoung) Kim**, a Computer Science Ph.D. candidate at the [School of Computing and Augmented Intelligence (SCAI)](https://scai.engineering.asu.edu/) at Arizona State University. I build and evaluate trustworthy NLP and LLM systems, with research spanning fairness, bias mitigation, hallucination, robustness, and human-centered AI evaluation.
@@ -17,8 +16,8 @@ I am **Claire (Nayoung) Kim**, a Computer Science Ph.D. candidate at the [School
 My work is strongest at the intersection of rigorous research and practical AI systems: defining measurable failure modes, designing mitigation methods, running careful evaluations, and building usable ML/LLM prototypes.
 
 <div class="role-tags" markdown="0">
-  <span class="role-tag--primary">Applied Scientist</span>
-  <span class="role-tag--primary">Research Scientist</span>
+  <span>Applied Scientist</span>
+  <span>Research Scientist</span>
   <span>AI/ML Engineer</span>
   <span>NLP / LLM Systems</span>
 </div>
@@ -31,7 +30,7 @@ My work is strongest at the intersection of rigorous research and practical AI s
   <a class="btn btn--primary btn--spotlight" href="{{ base_path }}/files/ClaireKim_resume.pdf"><i class="fas fa-file-pdf"></i> Download Resume</a>
   <a class="btn btn--accent-outline" href="{{ base_path }}/profile/">Profile</a>
   <a class="btn btn--accent-outline" href="{{ base_path }}/projects/">Research Projects</a>
-  <a class="btn btn--inverse" href="{{ base_path }}/publications/">Publications</a>
+  <a class="btn btn--accent-outline" href="{{ base_path }}/publications/">Publications</a>
 </p>
 
 
