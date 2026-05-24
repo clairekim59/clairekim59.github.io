@@ -25,7 +25,9 @@ Ongoing
 * Built **MASTOPIA**, a multi-agent RAG system (supervisor → retriever → generator agents) powered by GPT-4 / GPT-3.5 that operationalizes Multisource AI Scorecard Table (MAST) tradecraft standards through prompt engineering.
 * Designed and ran a 2³ factorial human-subject study (n = 304) varying LLM performance, MAST transparency, and task severity, with behavioral logging of verification activity.
 * Found that high-transparency outputs **did not improve performance** and in marginal conditions decreased it &mdash; evidence of overreliance from information overload &mdash; motivating adaptive / on-demand transparency design.
-* Built an interactive Streamlit demo version for exploring the system workflow. <span class="resource-links resource-links--inline" markdown="0"><a class="resource-link" href="https://mastopia-spr2025.streamlit.app/">Demo</a> <a class="resource-link" href="https://github.com/clairekim59/mastopia-spr2025">Code</a></span>
+* Built an interactive Streamlit demo version for exploring the system workflow. 
+
+<span class="resource-links resource-links--inline" markdown="0"><a class="btn btn--accent-outline" href="https://mastopia-spr2025.streamlit.app/">Demo</a> <a class="btn btn--accent-outline" href="https://github.com/clairekim59/mastopia-spr2025">Code</a></span>
 
 <div class="tech-stack" markdown="0"><span class="tech-stack__label">Tech</span> <span>Python</span> <span>GPT-4 / GPT-3.5</span> <span>RAG</span> <span>Multi-agent LLM</span> <span>Vector DB</span> <span>Prompt engineering</span> <span>Flask</span> <span>Zero-inflated Poisson regression</span> <span>Ridit analysis</span> <span>Prolific / Qualtrics human-subject design</span></div>
 
@@ -62,7 +64,9 @@ Ongoing
 * Developed a novel AI design framework for building trustworthy decision-support systems.
 * Demonstrated effectiveness through a deployed AI system that positively impacted user trust perceptions.
 * Conducted association analysis between user ratings and trust-impacting factors, providing a theoretical basis for the framework.
-* Released implementation artifacts for the READIT and Facewise prototypes supporting the MAST-based design workflow. <span class="resource-links resource-links--inline" markdown="0"><a class="resource-link" href="https://github.com/clairekim59/PADTHAI-MM">Code</a></span>
+* Released implementation artifacts for the READIT and Facewise prototypes supporting the MAST-based design workflow. 
+
+<span class="resource-links resource-links--inline" markdown="0"><a class="btn btn--accent-outline" href="https://github.com/clairekim59/PADTHAI-MM">Code</a></span>
 
 <div class="tech-stack" markdown="0"><span class="tech-stack__label">Tech</span> <span>Python</span> <span>Decision-support system design</span> <span>User study &amp; evaluation</span></div>
 
@@ -71,20 +75,26 @@ Ongoing
 **READIT: Reporting Assistant for Defense and Intelligence Tasks**
 * Trained a Transformer-based text-summarization system for intelligence analysts.
 * Built a user-friendly web interface using Node.js and Google Cloud, enabling analysts to access summarized reports in production.
-* Public implementation is available through the PADTHAI-MM research-code repository. <span class="resource-links resource-links--inline" markdown="0"><a class="resource-link" href="https://github.com/clairekim59/PADTHAI-MM/tree/main/readit">Code</a></span>
+* Public implementation is available through the PADTHAI-MM research-code repository. 
+
+<span class="resource-links resource-links--inline" markdown="0"><a class="btn btn--accent-outline" href="https://github.com/clairekim59/PADTHAI-MM/tree/main/readit">Code</a></span>
 
 <div class="tech-stack" markdown="0"><span class="tech-stack__label">Tech</span> <span>Python</span> <span>Transformers</span> <span>Node.js</span> <span>Google Cloud Platform</span></div>
 
 **Facewise: AI-based Face ID Verification System**
 * Built a face ID verification system for security screening with reliable identity authentication.
 * Implemented face matching with CNNs and ResNet, fine-tuning to optimize verification performance.
-* Public implementation is available through the PADTHAI-MM research-code repository. <span class="resource-links resource-links--inline" markdown="0"><a class="resource-link" href="https://github.com/clairekim59/PADTHAI-MM/tree/main/facewise">Code</a></span>
+* Public implementation is available through the PADTHAI-MM research-code repository. 
+
+<span class="resource-links resource-links--inline" markdown="0"><a class="btn btn--accent-outline" href="https://github.com/clairekim59/PADTHAI-MM/tree/main/facewise">Code</a></span>
 
 <div class="tech-stack" markdown="0"><span class="tech-stack__label">Tech</span> <span>Python</span> <span>PyTorch</span> <span>CNN</span> <span>ResNet</span></div>
 
 **Bridging the Gap: Online and Offline COVID-19 Data**
 * Released reproducibility code for a published social-computing study comparing online and offline COVID-19 signals.
-* Implemented topic modeling, matrix factorization, preprocessing, and comparison workflows for analyzing cross-source commonality and differences. <span class="resource-links resource-links--inline" markdown="0"><a class="resource-link" href="https://arxiv.org/pdf/2208.03907.pdf">Paper</a> <a class="resource-link" href="https://github.com/clairekim59/Bridging-the-Gap">Code</a></span>
+* Implemented topic modeling, matrix factorization, preprocessing, and comparison workflows for analyzing cross-source commonality and differences. 
+
+<span class="resource-links resource-links--inline" markdown="0"><a class="btn btn--accent-outline" href="ttps://arxiv.org/pdf/2208.03907.pdf">Paper</a> <a class="resource-link" href="https://github.com/clairekim59/Bridging-the-Gap">Code</a></span>
 
 <div class="tech-stack" markdown="0"><span class="tech-stack__label">Tech</span> <span>Python</span> <span>Topic modeling</span> <span>Matrix factorization</span> <span>Social computing</span></div>
 
@@ -93,7 +103,7 @@ Ongoing
 **Interpreting Text Classifiers with Counterfactual Explanation**
 * Final project for CSE 472 (Social Media Mining).
 * Implemented counterfactual explanations for a multi-layer neural network used in text classification.
-* Project report available here. <span class="resource-links resource-links--inline" markdown="0"><a class="resource-link" href="{{ base_path }}/files/CSE_472_report.pdf">Report</a></span>
+* Project report available here. <span class="resource-links resource-links--inline" markdown="0"><a class="btn btn--accent-outline" href="{{ base_path }}/files/CSE_472_report.pdf">Report</a></span>
 
 <div class="tech-stack" markdown="0"><span class="tech-stack__label">Tech</span> <span>Python</span> <span>PyTorch</span> <span>Explainable AI</span></div>
 
