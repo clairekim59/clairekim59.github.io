@@ -71,7 +71,7 @@ Technical Strengths
   <span class="skill-pill">Datasets</span> 
   <span class="skill-pill">Pandas</span> 
   <span class="skill-pill">NumPy</span></div></div>
-  <div class="skill-row"><div class="skill-label"></div>
+  <div class="skill-row"><div class="skill-label">Model Training</div>
   <div class="skill-list"><span class="skill-pill">Supervised fine-tuning (SFT)</span> 
   <span class="skill-pill">Reinforcement Learning</span>
   <span class="skill-pill">Classification</span>
