@@ -1,2 +1,17 @@
+# Jekyll build output and caches
 _site/
-.omc/*
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+
+# Ruby/Bundler local installs
+.bundle/
+vendor/bundle/
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Local AI/tooling state
+.omc/
+.claude/settings.local.json
