@@ -3,8 +3,6 @@ layout: archive
 title: "Developments"
 permalink: /projects/devs/
 author_profile: true
-redirect_from:
-  - /projects/trustworthy-systems/
 ---
 
 {% include base_path %}

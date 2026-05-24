@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Applied AI Researcher /
+Applied AI Researcher <br>
 Building Trustworthy LLM Systems
 ======
 
