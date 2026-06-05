@@ -11,9 +11,24 @@
   (function() {
     try {
       var stored = localStorage.getItem('theme');
-      var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var mql = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+      var prefersDark = mql && mql.matches;
       var initial = stored || (prefersDark ? 'dark' : 'light');
       document.documentElement.setAttribute('data-theme', initial);
+
+      // Follow live OS-theme changes only when the user hasn't picked manually.
+      if (mql && mql.addEventListener) {
+        mql.addEventListener('change', function(e) {
+          if (localStorage.getItem('theme')) return;
+          document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+          var btn = document.getElementById('theme-toggle');
+          if (btn) {
+            var cur = e.matches ? 'dark' : 'light';
+            btn.innerHTML = cur === 'dark' ? '☀' : '☾';
+            btn.setAttribute('aria-label', 'Switch to ' + (cur === 'dark' ? 'light' : 'dark') + ' mode');
+          }
+        });
+      }
     } catch (e) {}
   })();
 </script>
