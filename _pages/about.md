@@ -15,15 +15,22 @@ I am **Claire (Nayoung) Kim**, a Computer Science Ph.D. candidate at the [School
 
 My work is strongest at the intersection of rigorous research and practical AI systems: defining measurable failure modes, designing mitigation methods, running careful evaluations, and building usable ML/LLM prototypes.
 
+<div class="snapshot" markdown="0">
+  <ul>
+    <li><span class="snapshot__label">Focus</span><span class="snapshot__value">Trustworthy LLMs · Fairness · Hallucination mitigation · LLM evaluation</span></li>
+    <li><span class="snapshot__label">Core stack</span><span class="snapshot__value">Python · PyTorch · HuggingFace · Transformers · LoRA / PEFT</span></li>
+    <li><span class="snapshot__label">LLM systems</span><span class="snapshot__value">RAG · Multi-agent · LLM-as-a-judge · Vector DBs (FAISS, Chroma)</span></li>
+    <li><span class="snapshot__label">Cloud &amp; MLOps</span><span class="snapshot__value">AWS (SageMaker, S3, Lambda) · GCP · Docker · MLflow / WandB</span></li>
+    <li><span class="snapshot__label">Most recent</span><span class="snapshot__value">Applied Scientist Intern @ Amazon (Fall 2025)</span></li>
+    <li><span class="snapshot__label">Looking for</span><span class="snapshot__value">Applied / Research Scientist · ML / AI Engineer — Fall 2026 start</span></li>
+  </ul>
+</div>
+
 <div class="role-tags" markdown="0">
   <span>Applied Scientist</span>
   <span>Research Scientist</span>
   <span>AI/ML Engineer</span>
   <span>NLP / LLM Systems</span>
-</div>
-
-<div class="open-to">
-<strong>Currently seeking</strong> full-time <strong>Applied Scientist, Research Scientist, ML Engineer, and AI Engineer</strong> roles starting Fall 2026.
 </div>
 
 <p class="profile-actions">
