@@ -7,12 +7,10 @@
 $display-serif: "Fraunces", "Source Serif 4", Charter, Georgia, "Times New Roman", serif;
 $accent: #b7791f;        /* warm copper for stripes / hovers / spotlight */
 $accent-soft: #d4a574;   /* muted copper for subtle states */
-$cream: #faf8f3;         /* warm off-white body background */
 
 /* ---------- Body type ---------- */
 body {
   font-family: $sans-serif;
-  background: $cream;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $darker-gray;
@@ -744,7 +742,7 @@ em { color: $dark-gray; }
 .masthead {
   position: sticky;
   top: 0;
-  background: rgba($cream, 0.92);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: saturate(180%) blur(8px);
   -webkit-backdrop-filter: saturate(180%) blur(8px);
 }
@@ -755,7 +753,7 @@ html {
 
 .page__content {
   h1[id], h2[id] {
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 7.5rem;
   }
 }
 
