@@ -7,6 +7,7 @@ redirect_from:
   - /resume/
   - /publications/
   - /publications.html
+  - /talks/
 ---
 
 {% include base_path %}
@@ -73,6 +74,11 @@ Lu Cheng, **Nayoung Kim**, Huan Liu\
 *15th International Conference on Social Computing, Behavioral-Cultural Modeling, & Prediction and Behavior Representation in Modeling and Simulation (SBP-BRiMS), 2022.*
 
 <div class="resource-links" markdown="0"><a class="btn btn--accent-outline" href="https://arxiv.org/pdf/2208.03907.pdf">PDF</a> <a class="btn btn--accent-outline" href="https://github.com/clairekim59/Bridging-the-Gap">Code</a></div>
+
+Talks
+------
+* **Machine Learning Day 2024**, Arizona State University, West Valley Campus &mdash; April 26, 2024
+* **SCAI AI Day**, Arizona State University &mdash; November 17, 2023
 
 Teaching
 ------

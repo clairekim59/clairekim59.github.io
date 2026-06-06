@@ -1,18 +1,21 @@
 # main navigation links
 main:
-  - title: "Profile"
-    url: /profile/
+  - title: "About"
+    url: /#about
+
+  - title: "Experience"
+    url: /#experience
+
+  - title: "Skills"
+    url: /#skills
 
   - title: "Projects"
-    url: /projects/
+    url: /#research-projects
     children:
-      - title: "Research Projects"
-        url: /projects/
+      - title: "Research"
+        url: /#research-projects
       - title: "Developments"
-        url: /projects/devs/
+        url: /#dev-projects
 
   - title: "CV"
     url: /cv/
-
-  - title: "Talks"
-    url: /talks/
