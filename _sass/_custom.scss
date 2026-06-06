@@ -3,9 +3,16 @@
    - Loaded last so it overrides theme defaults
    ========================================================================== */
 
+/* ---------- Design tokens (editorial accent on top of the navy brand) ---------- */
+$display-serif: "Fraunces", "Source Serif 4", Charter, Georgia, "Times New Roman", serif;
+$accent: #b7791f;        /* warm copper for stripes / hovers / spotlight */
+$accent-soft: #d4a574;   /* muted copper for subtle states */
+$cream: #faf8f3;         /* warm off-white body background */
+
 /* ---------- Body type ---------- */
 body {
   font-family: $sans-serif;
+  background: $cream;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $darker-gray;
@@ -31,33 +38,42 @@ em { color: $dark-gray; }
 /* ---------- Body content typography ---------- */
 .page__content {
   h1 {
-    font-family: $serif;
-    font-size: 1.85em;
+    font-family: $display-serif;
+    font-size: 2.35em;
     font-weight: 600;
-    letter-spacing: -0.01em;
+    font-variation-settings: "opsz" 96, "SOFT" 50;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
     color: $darker-gray;
-    margin: 1.8em 0 0.55em;
+    margin: 1.6em 0 0.6em;
     padding-bottom: 0.35em;
     border-bottom: 1px solid $lighter-gray;
 
-    &:first-child { margin-top: 0.4em; }
+    &:first-child { margin-top: 0.3em; }
   }
 
   h2 {
     font-family: $serif;
-    font-size: 1.55em;
+    font-size: 1.6em;
     font-weight: 700;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.012em;
     color: #2c4f7c;
     margin: 3.6em 0 0.9em;
-    padding-top: 1.4em;
+    padding-top: 1.6em;
     padding-bottom: 0;
-    border-top: 2px solid $lighter-gray;
+    border-top: 1px solid $lighter-gray;
     border-bottom: 0;
+    position: relative;
 
-    &:first-child,
-    &:first-of-type:not(.page__content h1 ~ h2:first-of-type) {
-      /* keep the first section flush after the hero */
+    &::before {
+      content: '';
+      position: absolute;
+      top: -2px;
+      left: 0;
+      width: 3.2em;
+      height: 3px;
+      background: $accent;
+      border-radius: 2px;
     }
   }
 
@@ -82,16 +98,19 @@ em { color: $dark-gray; }
   ul li { margin-bottom: 0.4em; }
   ul li > ul { margin-top: 0.3em; }
 
-  /* Body links: subtle underline that fills on hover */
+  /* Body links: animated underline that thickens on hover */
   a:not(.btn) {
     color: $navy;
     text-decoration: none;
-    border-bottom: 1px solid rgba($navy, 0.25);
-    transition: border-color 0.15s ease, color 0.15s ease;
+    background-image: linear-gradient(to right, $accent, $accent);
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position: 0 100%;
+    transition: background-size 0.25s ease, color 0.2s ease;
 
     &:hover {
-      color: $navy-dark;
-      border-bottom-color: $navy;
+      color: $accent;
+      background-size: 100% 2px;
     }
   }
 
@@ -543,6 +562,13 @@ em { color: $dark-gray; }
     font-weight: 600;
     line-height: 1.25;
     overflow-wrap: anywhere;
+    transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+
+    &:hover:not(.tech-stack__label) {
+      background: rgba($accent, 0.1);
+      border-color: rgba($accent, 0.5);
+      color: $accent;
+    }
   }
 
   .tech-stack__label {
@@ -690,6 +716,14 @@ em { color: $dark-gray; }
     font-weight: 600;
     line-height: 1.25;
     overflow-wrap: anywhere;
+    transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+
+    &:hover {
+      background: rgba($accent, 0.1);
+      border-color: rgba($accent, 0.5);
+      color: $accent;
+      transform: translateY(-1px);
+    }
   }
 
   @media (max-width: 600px) {
@@ -710,7 +744,9 @@ em { color: $dark-gray; }
 .masthead {
   position: sticky;
   top: 0;
-  background: #fff;
+  background: rgba($cream, 0.92);
+  backdrop-filter: saturate(180%) blur(8px);
+  -webkit-backdrop-filter: saturate(180%) blur(8px);
 }
 
 html {
