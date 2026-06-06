@@ -11,9 +11,6 @@ main:
       - title: "Developments"
         url: /projects/devs/
 
-  - title: "Publications"
-    url: /publications/
-
   - title: "CV"
     url: /cv/
 

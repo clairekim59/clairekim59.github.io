@@ -12,8 +12,7 @@ This site is built with [Jekyll](https://jekyllrb.com/) and GitHub Pages, based 
 - Profile and technical overview: `_pages/profile.md`
 - Research projects: `_pages/projects.md`
 - Development projects and demos: `_pages/devs.md`
-- Publications: `_pages/publications.md`
-- CV page: `_pages/cv.md`
+- CV page (Education, Experience, Publications, Service): `_pages/cv.md`
 - Talks: `_pages/talks.md`
 - Resume and PDFs: `files/`
 - Images and favicons: `images/`

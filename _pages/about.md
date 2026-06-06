@@ -37,7 +37,7 @@ My work is strongest at the intersection of rigorous research and practical AI s
   <a class="btn btn--primary btn--spotlight" href="{{ base_path }}/files/ClaireKim_resume.pdf"><i class="fas fa-file-pdf"></i> Download Resume</a>
   <a class="btn btn--accent-outline" href="{{ base_path }}/profile/">Profile</a>
   <a class="btn btn--accent-outline" href="{{ base_path }}/projects/">Research Projects</a>
-  <a class="btn btn--accent-outline" href="{{ base_path }}/publications/">Publications</a>
+  <a class="btn btn--accent-outline" href="{{ base_path }}/cv/#publications">Publications</a>
 </p>
 
 
