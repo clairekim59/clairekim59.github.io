@@ -444,6 +444,20 @@ em { color: $dark-gray; }
     flex: 1 1 18em;
     color: $darker-gray;
   }
+
+  @media (max-width: 600px) {
+    padding: 0.8em 0.9em 0.6em;
+
+    li {
+      flex-direction: column;
+      gap: 0.1em;
+      padding: 0.35em 0;
+    }
+
+    .snapshot__label {
+      flex: none;
+    }
+  }
 }
 
 .role-tags {

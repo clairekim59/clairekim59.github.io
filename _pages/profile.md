@@ -55,10 +55,13 @@ Technical Strengths
   <span class="skill-pill">Multi-agent</span>
   <span class="skill-pill">LLM-as-a-judge</span>
   <span class="skill-pill">Synthetic QA generation</span>
+  <span class="skill-pill">LlamaIndex</span>
   <span class="skill-pill">Vector DBs (FAISS, Chroma)</span>
+  <span class="skill-pill">Elasticsearch</span>
   <span class="skill-pill">Prompt engineering</span>
   <span class="skill-pill">Inference-time scaling</span></div></div>
   <div class="skill-row"><div class="skill-label">ML &amp; training</div><div class="skill-list"><span class="skill-pill">PyTorch</span>
+  <span class="skill-pill">JAX</span>
   <span class="skill-pill">HuggingFace</span>
   <span class="skill-pill">Transformers</span>
   <span class="skill-pill">SFT</span>
@@ -78,7 +81,9 @@ Technical Strengths
   <span class="skill-pill">Flask</span>
   <span class="skill-pill">Node.js</span>
   <span class="skill-pill">Git</span>
-  <span class="skill-pill">Linux</span></div></div>
+  <span class="skill-pill">Linux</span>
+  <span class="skill-pill">Algorithms &amp; data structures</span>
+  <span class="skill-pill">System design</span></div></div>
   <div class="skill-row"><div class="skill-label">Methods</div><div class="skill-list"><span class="skill-pill">Bayesian inference</span>
   <span class="skill-pill">Uncertainty quantification</span>
   <span class="skill-pill">Statistical analysis</span>

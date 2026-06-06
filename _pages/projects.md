@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+A selection of research projects spanning trustworthy LLMs, fairness and bias mitigation, hallucination evaluation, and human-centered AI &mdash; grouped chronologically, with the most concrete outcome leading each entry.
+
 Ongoing
 ------
 **Reasoning-Level Fairness in LLMs** &mdash; *Under submission*
@@ -31,7 +33,7 @@ Ongoing
 * Built **MASTOPIA**, a multi-agent RAG system (supervisor → retriever → generator agents) powered by GPT-4 / GPT-3.5 that operationalizes Multisource AI Scorecard Table (MAST) tradecraft standards through prompt engineering.
 * Shipped an interactive Streamlit demo with model conditions, evidence retrieval, and behavioral logging of verification activity.
 
-<span class="resource-links resource-links--inline" markdown="0"><a class="btn btn--accent-outline" href="https://mastopia-spr2025.streamlit.app/">Demo</a> <a class="btn btn--accent-outline" href="https://github.com/clairekim59/mastopia-spr2025">Code</a></span>
+<span class="resource-links resource-links--inline" markdown="0"><a class="btn btn--primary" href="https://mastopia-spr2025.streamlit.app/">Try the demo</a> <a class="btn btn--accent-outline" href="https://github.com/clairekim59/mastopia-spr2025">Code</a></span>
 
 <div class="tech-stack" markdown="0"><span class="tech-stack__label">Tech</span> <span>Python</span> <span>GPT-4 / GPT-3.5</span> <span>RAG</span> <span>Multi-agent LLM</span> <span>Vector DB</span> <span>Prompt engineering</span> <span>Flask</span> <span>Zero-inflated Poisson regression</span> <span>Ridit analysis</span> <span>Prolific / Qualtrics human-subject design</span></div>
 
