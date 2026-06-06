@@ -200,7 +200,8 @@ A selection of research projects spanning trustworthy LLMs, fairness and bias mi
 **Interpreting Text Classifiers with Counterfactual Explanation**
 * Final project for CSE 472 (Social Media Mining).
 * Implemented counterfactual explanations for a multi-layer neural network used in text classification.
-* Project report available here. <span class="resource-links resource-links--inline" markdown="0"><a class="btn btn--accent-outline" href="{{ base_path }}/files/CSE_472_report.pdf">Report</a></span>
+
+<span class="resource-links resource-links--inline" markdown="0"><a class="btn btn--accent-outline" href="{{ base_path }}/files/CSE_472_report.pdf">Project Report</a></span>
 
 <div class="tech-stack" markdown="0"><span class="tech-stack__label">Tech</span> <span>Python</span> <span>PyTorch</span> <span>Explainable AI</span></div>
 
