@@ -21,15 +21,16 @@ Education
 
 Experience
 ------
-* **Sep 2025 – Dec 2025** &mdash; Applied Scientist Intern, Amazon, Bellevue WA
-* **May 2025 – Aug 2025** &mdash; AI/ML Intern, AMD, Austin TX
-* **Aug 2024 – Dec 2024** &mdash; Software Development Intern, AMD, Austin TX
-* **Aug 2022 – May 2025** &mdash; Research Assistant, Department of Homeland Security (DHS-CAOE)
+* **Sep 2025 – Dec 2025** &mdash; Applied Scientist Intern, [Amazon](https://logistics.amazon.com/), Bellevue WA
+* **May 2025 – Aug 2025** &mdash; AI/ML Intern, [AMD](https://www.amd.com/en.html), Austin TX
+* **Aug 2024 – Dec 2024** &mdash; Software Development Intern, [AMD](https://www.amd.com/en.html), Austin TX
+* **Aug 2022 – May 2025** &mdash; Research Assistant, Department of Homeland Security ([DHS-CAOE](https://caoe.asu.edu/))
   * PI: Dr. Erin K. Chiou; Co-PI: Dr. Michelle V. Mancenido
 * **Aug 2021 – Aug 2022** &mdash; Research Assistant, Arizona State University
   * PI: Dr. Huan Liu
-* **Jan 2021 – May 2021** &mdash; Research Assistant, Arizona State University & Mathpresso
+* **Jan 2021 – May 2021** &mdash; Research Assistant, Arizona State University & [Mathpresso](https://mathpresso.com/en)
   * PI: Dr. Sang Pil Han
+* **Mar 2017 – Feb 2019**  &mdash; Research Assistant, [Korea University DMIS Lab](https://dmis.korea.ac.kr/) &mdash; Seoul, Republic of Korea
 
 Publications
 ------
@@ -98,9 +99,6 @@ Service
 
 **Conference Reviewer**
 * AMLC 2025 (Gen AI Evaluation Workshop), NeurIPS 2025 (Reliable ML Workshop), AAAI 2023, EMNLP 2023, ECML-PKDD 2022, ACM Multimedia 2022, ASONAM 2022, ASONAM 2021, IEEE CogMI 2021
-
-**Journal Reviewer**
-* Scientific Reports (2026)
 
 **Volunteer**
 * WSDM 2022, KDD 2021
