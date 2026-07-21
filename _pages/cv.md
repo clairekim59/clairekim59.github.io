@@ -21,9 +21,9 @@ Education
 
 Experience
 ------
-* **Sep 2025 – Dec 2025** &mdash; Applied Scientist Intern, [Amazon](https://logistics.amazon.com/), Bellevue WA
-* **May 2025 – Aug 2025** &mdash; AI/ML Intern, [AMD](https://www.amd.com/en.html), Austin TX
-* **Aug 2024 – Dec 2024** &mdash; Software Development Intern, [AMD](https://www.amd.com/en.html), Austin TX
+* **Sep 15th 2025 – Dec 19th 2025** &mdash; Applied Scientist Intern, [Amazon](https://logistics.amazon.com/), Bellevue WA
+* **May 27th 2025 – Aug 8th 2025** &mdash; AI/ML Intern, [AMD](https://www.amd.com/en.html), Austin TX
+* **Aug 19th 2024 – Dec 13rd 2024** &mdash; Software Development Intern, [AMD](https://www.amd.com/en.html), Austin TX
 * **Aug 2022 – May 2025** &mdash; Research Assistant, Department of Homeland Security ([DHS-CAOE](https://caoe.asu.edu/))
   * PI: Dr. Erin K. Chiou; Co-PI: Dr. Michelle V. Mancenido
 * **Aug 2021 – Aug 2022** &mdash; Research Assistant, Arizona State University
