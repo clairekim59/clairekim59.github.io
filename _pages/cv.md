@@ -15,19 +15,33 @@ redirect_from:
 
 Education
 ------
-* **Ph.D. in Computer Science**, Arizona State University, expected 2026
-* **M.E. in Computer Science & Engineering**, Korea University, 2019
-* **B.S. in Computer Science & Engineering**, Korea University, 2017
+* **Ph.D. in Computer Science**, Arizona State University &mdash; 2021 – Nov 2026
+  * [Data Mining and Machine Learning Lab](https://dmml.asu.edu/); advisors: Dr. Huan Liu and Dr. Mickey Mancenido
+  * Funded by [DHS-CAOE](https://caoe.asu.edu/)
+* **M.E. in Computer Science & Engineering**, Korea University, Seoul &mdash; 2019
+* **B.S. in Computer Science & Engineering**, Korea University, Seoul &mdash; 2017
 
 Experience
 ------
-* **Sep 15th 2025 – Dec 19th 2025** &mdash; Applied Scientist Intern, [Amazon](https://logistics.amazon.com/), Bellevue WA
-* **May 27th 2025 – Aug 8th 2025** &mdash; AI/ML Intern, [AMD](https://www.amd.com/en.html), Austin TX
-* **Aug 19th 2024 – Dec 13rd 2024** &mdash; Software Development Intern, [AMD](https://www.amd.com/en.html), Austin TX
-* **Aug 2022 – May 2025** &mdash; Research Assistant, Department of Homeland Security ([DHS-CAOE](https://caoe.asu.edu/))
+* **Sep 2025 – Dec 2025** &mdash; Applied Scientist Intern, [Amazon](https://logistics.amazon.com/), Bellevue WA
+  * Improved production sentiment forecasting models supporting community operations by developing advanced sequence modeling approaches and improving prediction robustness at scale.
+  * Designed and productionized an end-to-end ML pipeline spanning data collection, model training, experiment tracking, automated deployment, and monitoring using Python, AWS, MLflow, and CI/CD pipelines.
+* **May 2025 – Aug 2025** &mdash; AI/ML Intern, [AMD](https://www.amd.com/en.html), Austin TX
+  * Architected and deployed **Q-RAG**, an enterprise question-centric Retrieval-Augmented Generation framework using synthetic QA generation and LLM-as-a-Judge evaluation to improve knowledge retrieval, identify documentation gaps, and reduce hallucinations across engineering support systems.
+  * Designed scalable AI evaluation infrastructure enabling automated benchmarking of enterprise RAG systems while significantly reducing manual expert review.
+  * Partnered with engineering stakeholders to identify knowledge management challenges, prototype AI solutions, iterate on user feedback, and deliver production-ready LLM workflows.
+* **Aug 2024 – Dec 2024** &mdash; Software Development Intern, [AMD](https://www.amd.com/en.html), Austin TX
+  * Designed production AI inference architecture supporting enterprise RAG, multi-agent orchestration, user-feedback integration, and large-scale experimentation.
+  * Optimized AI inference and data pipelines to improve throughput, reduce evaluation latency, and eliminate performance bottlenecks across scalable production deployments.
+* **May 2022 – Aug 2024** &mdash; Graduate Research Assistant, Department of Homeland Security ([DHS-CAOE](https://caoe.asu.edu/))
   * PI: Dr. Erin K. Chiou; Co-PI: Dr. Michelle V. Mancenido
-* **Aug 2021 – Aug 2022** &mdash; Research Assistant, Arizona State University
+  * Designed NLP solutions for topic modeling and text summarization using BERT and Llama-2.
+  * Architected a trustworthy multi-agent RAG system for AI-assisted intelligence analysis with researchers, domain experts, and software engineers.
+  * Delivered an interactive analytics dashboard for stakeholders to explore AI-generated insights through web-based visualizations.
+* **Jan 2021 – Aug 2022** &mdash; Graduate Research Assistant, Office of Naval Research project, Arizona State University
   * PI: Dr. Huan Liu
+  * Researched the integration and mutual influence of online and offline COVID-19 datasets using topic modeling.
+  * Analyzed 2M tweets for sentiment and stance detection in pandemic-related discussions.
 * **Jan 2021 – May 2021** &mdash; Research Assistant, Arizona State University & [Mathpresso](https://mathpresso.com/en)
   * PI: Dr. Sang Pil Han
 * **Mar 2017 – Feb 2019**  &mdash; Research Assistant, [Korea University DMIS Lab](https://dmis.korea.ac.kr/) &mdash; Seoul, Republic of Korea
@@ -37,6 +51,13 @@ Publications
 A complete list is also available on my [Google Scholar profile]({{ site.author.googlescholar }}).
 
 (\* denotes equal contribution; **bold** denotes author of this page.)
+
+### 2026
+**Adaptive Triggering for Bias Correction in LLM Reasoning**\
+**Nayoung Kim**, Mickey Mancenido, Huan Liu\
+*Under review, 2026.*
+
+<div class="resource-links" markdown="0"><a class="btn btn--accent-outline" href="{{ base_path }}/files/AdaptiveTriggering_preprint.pdf">Preprint</a> <a class="btn btn--accent-outline" href="https://github.com/clairekim59/adaptive-triggering">Code</a></div>
 
 ### 2025
 
@@ -75,6 +96,16 @@ Lu Cheng, **Nayoung Kim**, Huan Liu\
 *15th International Conference on Social Computing, Behavioral-Cultural Modeling, & Prediction and Behavior Representation in Modeling and Simulation (SBP-BRiMS), 2022.*
 
 <div class="resource-links" markdown="0"><a class="btn btn--accent-outline" href="https://arxiv.org/pdf/2208.03907.pdf">PDF</a> <a class="btn btn--accent-outline" href="https://github.com/clairekim59/Bridging-the-Gap">Code</a></div>
+
+Technical Skills
+------
+* **Large language models & agents** &mdash; Retrieval-Augmented Generation (RAG), agentic AI, multi-agent systems, LangChain / LangGraph, LlamaIndex, LLM-as-a-judge, prompt engineering, synthetic data generation, inference-time scaling
+* **Model training & alignment** &mdash; model alignment, post-training, RLHF, RLAIF, LoRA, PEFT, responsible AI, AI safety
+* **Retrieval & search** &mdash; vector search, knowledge retrieval, embeddings, FAISS / Chroma, Elasticsearch
+* **Machine learning** &mdash; PyTorch, TensorFlow, Scikit-Learn, Hugging Face, Pandas, NumPy
+* **Cloud & deployment** &mdash; AWS, GCP, Docker, MLflow, WandB, TensorRT, model serving, GPU optimization, CI/CD
+* **Software engineering** &mdash; Flask, Node.js, REST APIs, Git, Linux, unit testing
+* **Languages** &mdash; Python, SQL, Java, JavaScript, Bash
 
 Talks
 ------

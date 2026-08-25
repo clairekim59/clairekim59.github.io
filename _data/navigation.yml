@@ -9,6 +9,9 @@ main:
   - title: "Skills"
     url: /#skills
 
+  - title: "Publications"
+    url: /#publications
+
   - title: "Projects"
     url: /#research-projects
     children:

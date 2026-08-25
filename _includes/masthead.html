@@ -2,6 +2,9 @@
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
+    <!-- Outside .greedy-nav on purpose: greedy-nav claims every button inside
+         the nav as its overflow toggle and hides it. -->
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">☾</button>
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
@@ -31,7 +34,6 @@
               <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
           {% endfor %}
-          <li class="masthead__menu-item"><button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">☾</button></li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
