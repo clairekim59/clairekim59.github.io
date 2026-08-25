@@ -16,7 +16,8 @@
       var initial = stored || (prefersDark ? 'dark' : 'light');
       document.documentElement.setAttribute('data-theme', initial);
 
-      // Follow live OS-theme changes only when the user hasn't picked manually.
+      /* Follow live OS-theme changes only when the user hasn't picked manually.
+         Block comment, not //: compress_html strips newlines in production. */
       if (mql && mql.addEventListener) {
         mql.addEventListener('change', function(e) {
           if (localStorage.getItem('theme')) return;
