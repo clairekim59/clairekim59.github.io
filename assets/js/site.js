@@ -63,6 +63,9 @@
 
     function setNavHeight() {
       document.documentElement.style.setProperty('--nav-h', navHeight() + 'px');
+      /* 100vw includes the scrollbar; full-bleed elements subtract this. */
+      var sbw = window.innerWidth - document.documentElement.clientWidth;
+      document.documentElement.style.setProperty('--sbw', (sbw > 0 ? sbw : 0) + 'px');
     }
     setNavHeight();
     window.addEventListener('resize', setNavHeight);
@@ -243,32 +246,24 @@
     });
   }
 
-  // ---------- Copy email address ----------
+  // ---------- Click the email address to copy it ----------
   function initCopyEmail() {
-    var link = document.querySelector('.contact a[href^="mailto:"], .author__urls a[href^="mailto:"]');
-    if (!link || !navigator.clipboard) return;
+    var link = document.querySelector('.contact a[href^="mailto:"]');
+    if (!link) return;
 
+    var label = link.querySelector('.contact__label') || link;
     var address = link.getAttribute('href').replace(/^mailto:/, '').split('?')[0];
     if (!address) return;
 
-    // Deliberately not a <button>: main.min.js binds the author-links dropdown
-    // to every button inside .author__urls-wrapper, so a real button here would
-    // also toggle that panel.
-    var btn = document.createElement('span');
-    btn.className = 'copy-email';
-    btn.textContent = 'copy';
-    btn.title = 'Copy ' + address;
-    btn.setAttribute('role', 'button');
-    btn.setAttribute('tabindex', '0');
-    btn.setAttribute('aria-label', 'Copy email address');
+    function restore() {
+      label.textContent = address;
+      link.classList.remove('is-copied');
+    }
 
-    function flash(label, ok) {
-      btn.textContent = label;
-      btn.classList.toggle('is-copied', !!ok);
-      window.setTimeout(function() {
-        btn.textContent = 'copy';
-        btn.classList.remove('is-copied');
-      }, 1800);
+    function flash(text, ok) {
+      label.textContent = text;
+      link.classList.toggle('is-copied', !!ok);
+      window.setTimeout(restore, 1600);
     }
 
     function legacyCopy() {
@@ -285,24 +280,20 @@
       return ok;
     }
 
-    function copy(e) {
+    link.addEventListener('click', function(e) {
       e.preventDefault();
-      e.stopPropagation();
+      if (!navigator.clipboard) {
+        var done = legacyCopy();
+        flash(done ? 'Copied \u2713' : address, done);
+        return;
+      }
       navigator.clipboard.writeText(address).then(function() {
-        flash('copied \u2713', true);
+        flash('Copied \u2713', true);
       }).catch(function() {
-        var ok = legacyCopy();
-        flash(ok ? 'copied \u2713' : 'copy failed', ok);
+        var done = legacyCopy();
+        flash(done ? 'Copied \u2713' : address, done);
       });
-    }
-
-    btn.addEventListener('click', copy);
-    btn.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') copy(e);
     });
-
-    link.parentNode.classList.add('has-copy');
-    link.parentNode.appendChild(btn);
   }
 
   // ---------- Tab title animation ----------

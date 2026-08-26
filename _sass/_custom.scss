@@ -857,6 +857,10 @@ html {
 }
 
 /* ---------- Hero ---------- */
+body {
+  overflow-x: clip;
+}
+
 .lede {
   display: flex;
   align-items: flex-start;
@@ -884,10 +888,10 @@ html {
   padding: 0;
   border: 0;
   font-family: $serif;
-  font-size: 2.5em;
+  font-size: 1.95em;
   font-weight: 600;
-  line-height: 1.05;
-  letter-spacing: -0.025em;
+  line-height: 1.15;
+  letter-spacing: -0.012em;
   color: $darker-gray;
 }
 
@@ -959,6 +963,15 @@ html {
   }
 }
 
+.page__content ul.contact a.contact__email { cursor: pointer; }
+
+.page__content ul.contact a.is-copied {
+  border-color: rgba(47, 133, 90, 0.5);
+  color: #2f855a !important;
+
+  i { color: #2f855a; }
+}
+
 @media (max-width: 700px) {
   .lede {
     flex-direction: column;
@@ -972,29 +985,9 @@ html {
     height: 118px;
   }
 
-  .page__content h1.lede__name { font-size: 2em; }
+  .page__content h1.lede__name { font-size: 1.65em; }
 
   .page__content ul.contact { justify-content: center; }
-}
-
-.contact .copy-email {
-  margin-left: -0.15em;
-  padding: 0.4em 0.7em;
-  border-radius: 999px;
-  border-color: $lighter-gray;
-  font-size: 0.78em;
-  opacity: 1;
-  color: $dark-gray;
-
-  &:hover {
-    border-color: rgba($accent, 0.5);
-    color: $accent;
-  }
-
-  &.is-copied {
-    border-color: rgba(47, 133, 90, 0.45);
-    color: #2f855a;
-  }
 }
 
 /* ---------- Masthead actions ---------- */
@@ -1009,46 +1002,9 @@ html {
   z-index: 25;
 }
 
-.masthead__cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45em;
-  padding: 0.4em 0.9em;
-  background: $navy;
-  border: 1px solid $navy;
-  border-radius: 999px;
-  font-family: $sans-serif;
-  font-size: 0.8em;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-  text-decoration: none;
-  color: #fff !important;
-  transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
-
-  &:hover {
-    background: $navy-dark;
-    border-color: $navy-dark;
-    transform: translateY(-1px);
-    color: #fff !important;
-  }
-}
-
 @media (max-width: 900px) {
-  .masthead__actions { right: 4.2em; }
-  .masthead__cta span { display: none; }
-  .contact .copy-email {
-    border-color: #1e293b;
-    color: #94a3b8;
-
-    &:hover { border-color: rgba(246, 217, 139, 0.4); color: #f6d98b; }
-    &.is-copied { border-color: rgba(110, 231, 183, 0.45); color: #6ee7b7; }
-  }
-
-  .masthead__cta { padding: 0.4em 0.6em; }
-}
-
-@media (max-width: 420px) {
-  .masthead__cta { display: none; }
+  /* clear the greedy-nav hamburger */
+  .masthead__actions { right: 4.6em; }
 }
 
 /* ---------- Hero: availability pill ---------- */
@@ -1524,40 +1480,6 @@ html {
 }
 
 /* ---------- Copy-email affordance ---------- */
-.author__urls li.has-copy {
-  display: flex;
-  align-items: center;
-}
-
-.copy-email {
-  flex: none;
-  margin-left: 0.45em;
-  padding: 0.1em 0.4em;
-  background: transparent;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  vertical-align: middle;
-  font-family: $sans-serif;
-  font-size: 0.8em;
-  line-height: 1;
-  color: $dark-gray;
-  cursor: pointer;
-  opacity: 0.55;
-  transition: opacity 0.15s ease, color 0.15s ease, border-color 0.15s ease;
-
-  &:hover {
-    opacity: 1;
-    color: $accent;
-    border-color: rgba($accent, 0.4);
-  }
-
-  &.is-copied {
-    opacity: 1;
-    color: #2f855a;
-    border-color: rgba(47, 133, 90, 0.4);
-  }
-}
-
 /* ---------- Hero wash ---------- */
 .page__content {
   position: relative;
@@ -1571,14 +1493,17 @@ html {
     content: '';
     position: absolute;
     top: -6em;
-    left: -5em;
-    right: -5em;
+    /* full-bleed: escape the centred column and span the viewport */
+    left: 50%;
+    right: auto;
+    width: calc(100vw - var(--sbw, 0px));
+    margin-left: calc(-50vw + var(--sbw, 0px) / 2);
     height: 42em;
     /* Centres sit well inside the box so the glow fades out on every side
        instead of ending on a visible rectangle. */
     background:
-      radial-gradient(38% 34% at 16% 32%, rgba($accent, 0.15), rgba($accent, 0) 70%),
-      radial-gradient(36% 32% at 86% 24%, rgba(44, 79, 124, 0.13), rgba(44, 79, 124, 0) 70%);
+      radial-gradient(30% 34% at 24% 30%, rgba($accent, 0.16), rgba($accent, 0) 70%),
+      radial-gradient(28% 32% at 78% 22%, rgba(44, 79, 124, 0.14), rgba(44, 79, 124, 0) 70%);
     pointer-events: none;
     z-index: 0;
   }
@@ -1744,6 +1669,13 @@ html {
     i { color: #f6d98b; }
   }
 
+  .page__content ul.contact a.is-copied {
+    border-color: rgba(110, 231, 183, 0.5);
+    color: #6ee7b7 !important;
+
+    i { color: #6ee7b7; }
+  }
+
   .page__content ul.contact a {
     background: #111c33;
     border-color: #1e293b;
@@ -1756,18 +1688,6 @@ html {
       border-color: rgba(246, 217, 139, 0.4);
       color: #f6d98b !important;
       box-shadow: 0 6px 16px rgba(#000, 0.3);
-    }
-  }
-
-  .masthead__cta {
-    background: #93c5fd;
-    border-color: #93c5fd;
-    color: #0f172a !important;
-
-    &:hover {
-      background: #bfdbfe;
-      border-color: #bfdbfe;
-      color: #0f172a !important;
     }
   }
 
@@ -1859,24 +1779,10 @@ html {
     &:after { background: #f6d98b; }
   }
 
-  .copy-email {
-    color: #94a3b8;
-
-    &:hover {
-      color: #f6d98b;
-      border-color: rgba(246, 217, 139, 0.4);
-    }
-
-    &.is-copied {
-      color: #6ee7b7;
-      border-color: rgba(110, 231, 183, 0.4);
-    }
-  }
-
   .page__content:before {
     background:
-      radial-gradient(38% 34% at 16% 32%, rgba(147, 197, 253, 0.1), rgba(147, 197, 253, 0) 70%),
-      radial-gradient(36% 32% at 86% 24%, rgba(246, 217, 139, 0.08), rgba(246, 217, 139, 0) 70%);
+      radial-gradient(30% 34% at 24% 30%, rgba(147, 197, 253, 0.11), rgba(147, 197, 253, 0) 70%),
+      radial-gradient(28% 32% at 78% 22%, rgba(246, 217, 139, 0.09), rgba(246, 217, 139, 0) 70%);
   }
 
   .snapshot {
