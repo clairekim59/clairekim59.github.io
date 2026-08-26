@@ -39,7 +39,6 @@ em { color: $dark-gray; }
     font-family: $display-serif;
     font-size: 2.35em;
     font-weight: 600;
-    font-variation-settings: "opsz" 96, "SOFT" 50;
     letter-spacing: -0.02em;
     line-height: 1.05;
     color: $darker-gray;
@@ -351,7 +350,7 @@ em { color: $dark-gray; }
     border-bottom: 1px solid $navy !important;
     box-shadow: 0 4px 12px rgba($navy, 0.12);
 
-    i { margin-right: 0.4em; }
+    i, .icon { margin-right: 0.4em; }
 
     &:hover {
       background: $navy-dark;
@@ -803,6 +802,20 @@ html {
   }
 }
 
+/* ---------- Inline SVG icons (replaced Font Awesome) ---------- */
+.icon {
+  width: 1em;
+  height: 1em;
+  flex: none;
+  vertical-align: -0.125em;
+}
+
+/* brand marks are solid, so they read heavier - shave them slightly */
+.icon--brand {
+  width: 0.92em;
+  height: 0.92em;
+}
+
 /* ---------- Hero ---------- */
 body {
   overflow-x: clip;
@@ -838,8 +851,6 @@ body {
   font-family: $serif;
   font-size: 1.95em;
   font-weight: 600;
-  /* Fraunces: optical size near the rendered size, a little SOFT for warmth */
-  font-variation-settings: "opsz" 40, "SOFT" 40;
   line-height: 1.25;
   letter-spacing: -0.005em;
   color: $darker-gray;
@@ -862,7 +873,7 @@ body {
   line-height: 1.6;
   color: $dark-gray;
 
-  i {
+  i, .icon {
     margin-right: 0.3em;
     color: $accent;
   }
@@ -904,7 +915,7 @@ body {
     box-shadow: 0 1px 2px rgba(26, 54, 93, 0.04);
     transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, color 0.15s ease;
 
-    i { color: $accent; }
+    i, .icon { color: $accent; }
 
     &:hover {
       transform: translateY(-1px);
@@ -925,7 +936,7 @@ body {
   border-color: rgba(47, 133, 90, 0.5);
   color: #2f855a !important;
 
-  i { color: #2f855a; }
+  i, .icon { color: #2f855a; }
 }
 
 @media (max-width: 700px) {
@@ -1622,14 +1633,14 @@ body {
   .page__content .lede__role { color: #93c5fd; }
   .page__content .lede__meta {
     color: #94a3b8;
-    i { color: #f6d98b; }
+    i, .icon { color: #f6d98b; }
   }
 
   .page__content ul.contact a.is-copied {
     border-color: rgba(110, 231, 183, 0.5);
     color: #6ee7b7 !important;
 
-    i { color: #6ee7b7; }
+    i, .icon { color: #6ee7b7; }
   }
 
   .page__content ul.contact a {
@@ -1638,7 +1649,7 @@ body {
     color: #cbd5e1 !important;
     box-shadow: none;
 
-    i { color: #f6d98b; }
+    i, .icon { color: #f6d98b; }
 
     &:hover {
       border-color: rgba(246, 217, 139, 0.4);

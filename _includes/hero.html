@@ -9,15 +9,15 @@
   <div class="lede__body">
     <h1 class="lede__name">Claire Kim</h1>
     <p class="lede__role">Computer Science Ph.D. Candidate &middot; Arizona State University</p>
-    <p class="lede__meta"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> {{ a.location }} &nbsp;·&nbsp; Trustworthy LLMs, fairness, and evaluation</p>
+    <p class="lede__meta">{% include icon.html name="map-pin" %} {{ a.location }} &nbsp;·&nbsp; Trustworthy LLMs, fairness, and evaluation</p>
 
     <p class="availability"><span class="availability__dot" aria-hidden="true"></span><span class="availability__text">Available from <strong>December 2026</strong> &mdash; actively interviewing now</span></p>
 
     <ul class="contact">
-      <li><a class="contact__email" href="mailto:{{ a.email }}" title="Click to copy"><i class="fas fa-envelope" aria-hidden="true"></i> <span class="contact__label">{{ a.email }}</span></a></li>
-      <li><a href="https://www.linkedin.com/in/{{ a.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
-      <li><a href="https://github.com/{{ a.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-      <li><a href="{{ a.googlescholar }}"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+      <li><a class="contact__email" href="mailto:{{ a.email }}" title="Click to copy">{% include icon.html name="mail" %} <span class="contact__label">{{ a.email }}</span></a></li>
+      <li><a href="https://www.linkedin.com/in/{{ a.linkedin }}">{% include icon.html name="linkedin" %} LinkedIn</a></li>
+      <li><a href="https://github.com/{{ a.github }}">{% include icon.html name="github" %} GitHub</a></li>
+      <li><a href="{{ a.googlescholar }}">{% include icon.html name="graduation-cap" %} Google Scholar</a></li>
     </ul>
   </div>
 </header>

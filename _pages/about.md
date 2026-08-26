@@ -33,7 +33,7 @@ Alongside the research, I have built enterprise AI systems at Amazon and AMD: la
 </div>
 
 <p class="profile-actions">
-  <a class="btn btn--primary btn--spotlight" href="{{ base_path }}/files/ClaireKim_resume.pdf"><i class="fas fa-file-pdf"></i> Download Resume</a>
+  <a class="btn btn--primary btn--spotlight" href="{{ base_path }}/files/ClaireKim_resume.pdf">{% include icon.html name="file-text" %} Download Resume</a>
   <a class="btn btn--accent-outline" href="#research-projects">Research Projects</a>
   <a class="btn btn--accent-outline" href="#dev-projects">Dev Projects</a>
   <a class="btn btn--accent-outline" href="{{ base_path }}/cv/">Full CV</a>
