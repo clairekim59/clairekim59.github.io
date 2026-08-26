@@ -11,6 +11,15 @@ redirect_from:
 ---
 
 {% include base_path %}
+{% assign a = site.author %}
+
+<ul class="contact contact--cv" markdown="0">
+  <li><a class="contact__email" href="mailto:{{ a.email }}" title="Click to copy"><i class="fas fa-envelope" aria-hidden="true"></i> <span class="contact__label">{{ a.email }}</span></a></li>
+  <li><a href="https://www.linkedin.com/in/{{ a.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+  <li><a href="https://github.com/{{ a.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+  <li><a href="{{ a.googlescholar }}"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+  <li><a href="{{ base_path }}/files/ClaireKim_resume.pdf"><i class="fas fa-file-pdf" aria-hidden="true"></i> Resume</a></li>
+</ul>
 
 
 Education

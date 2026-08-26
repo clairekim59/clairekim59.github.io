@@ -14,10 +14,6 @@ redirect_from:
 
 {% include hero.html %}
 
-I am **Claire (Nayoung) Kim**, a Computer Science Ph.D. candidate at the [School of Computing and Augmented Intelligence (SCAI)](https://scai.engineering.asu.edu/) at Arizona State University, graduating in November 2026. I work in the [Data Mining and Machine Learning Lab](https://dmml.asu.edu/) with Dr. Huan Liu and Dr. Mickey Mancenido, building and evaluating trustworthy LLM systems &mdash; fairness and bias mitigation, hallucination, robustness, and human-centered AI evaluation.
-
-Alongside the research, I have built enterprise AI systems at Amazon and AMD: large-scale LLM training, inference, and evaluation pipelines on GPU infrastructure, agentic and RAG architectures, post-training and alignment (RLHF, LoRA, PEFT), and the ML platforms that keep them running in production.
-
 <div class="stats" markdown="0">
   <div class="stat"><span class="stat__num">2026</span><span class="stat__label">CS Ph.D., Arizona State (Nov)</span></div>
   <div class="stat"><span class="stat__num">3</span><span class="stat__label">industry internships<br>Amazon &middot; AMD</span></div>
@@ -25,16 +21,9 @@ Alongside the research, I have built enterprise AI systems at Amazon and AMD: la
   <div class="stat"><span class="stat__num">10</span><span class="stat__label">research projects since 2017</span></div>
 </div>
 
-<div class="snapshot" markdown="0">
-  <ul>
-    <li><span class="snapshot__label">Focus</span><span class="snapshot__value">Trustworthy LLMs · Inference-time bias mitigation · Hallucination · LLM evaluation</span></li>
-    <li><span class="snapshot__label">Core stack</span><span class="snapshot__value">Python · PyTorch · Hugging Face · LoRA / PEFT · RLHF / RLAIF</span></li>
-    <li><span class="snapshot__label">LLM systems</span><span class="snapshot__value">RAG · Agentic &amp; multi-agent · LLM-as-a-judge · Synthetic data generation · Vector search (FAISS, Chroma)</span></li>
-    <li><span class="snapshot__label">Cloud &amp; MLOps</span><span class="snapshot__value">AWS (SageMaker, S3, Lambda) · GCP · Docker · MLflow / WandB · TensorRT · CI/CD</span></li>
-    <li><span class="snapshot__label">Most recent</span><span class="snapshot__value">Applied Scientist Intern @ <a href="https://logistics.amazon.com/">Amazon</a> (Fall 2025)</span></li>
-    <li><span class="snapshot__label">Looking for</span><span class="snapshot__value">Applied / Research Scientist · ML / AI Engineer — from December 2026</span></li>
-  </ul>
-</div>
+I am **Claire (Nayoung) Kim**, a Computer Science Ph.D. candidate at the [School of Computing and Augmented Intelligence (SCAI)](https://scai.engineering.asu.edu/) at Arizona State University, graduating in November 2026. I work in the [Data Mining and Machine Learning Lab](https://dmml.asu.edu/) with Dr. Huan Liu and Dr. Mickey Mancenido, building and evaluating trustworthy LLM systems &mdash; fairness and bias mitigation, hallucination, robustness, and human-centered AI evaluation.
+
+Alongside the research, I have built enterprise AI systems at Amazon and AMD: large-scale LLM training, inference, and evaluation pipelines on GPU infrastructure, agentic and RAG architectures, post-training and alignment (RLHF, LoRA, PEFT), and the ML platforms that keep them running in production.
 
 <div class="role-tags" markdown="0">
   <span>Applied Scientist</span>

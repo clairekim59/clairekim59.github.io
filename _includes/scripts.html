@@ -1,4 +1,9 @@
-<script src="{{ base_path }}/assets/js/main.min.js"></script>
+{% comment %}
+  main.min.js (jQuery + Magnific Popup + greedy-nav + smoothScroll, 128KB) is
+  no longer loaded: site.js handles the nav, smoothScroll was replaced by the
+  anchor-offset handler, and nothing on the site opens a lightbox or uses the
+  author-profile dropdown any more.
+{% endcomment %}
 
 <script src="{{ base_path }}/assets/js/site.js"></script>
 

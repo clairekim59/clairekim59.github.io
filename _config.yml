@@ -75,7 +75,11 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  # Universal Analytics stopped processing data in July 2023, and the tracking
+  # id was empty anyway, so the page was loading analytics.js to record
+  # nothing. Set this to "google" and fill in a GA4 id (G-XXXXXXXXXX) to
+  # re-enable measurement.
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 

@@ -96,11 +96,9 @@
       catch (err) { return null; }
     }
 
-    // main.min.js binds jQuery smoothScroll with a fixed -20px offset that
-    // ignores scroll-margin-top, so headings land behind the sticky nav — and it
-    // re-binds itself after every scroll, so unbinding it once is not enough.
-    // Handle same-page anchors here in the capture phase instead, before the
-    // plugin's own click handler ever sees the event.
+    // Same-page anchors are handled here so the landing spot clears the sticky
+    // masthead. (This originally also had to out-run jQuery smoothScroll from
+    // main.min.js, which forced a -20px offset; that bundle is no longer loaded.)
     document.addEventListener('click', function(e) {
       if (e.defaultPrevented || e.button !== 0) return;
       if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
@@ -137,6 +135,104 @@
       window.setTimeout(function() { scrollToTarget(initial, false); }, 0);
       window.addEventListener('load', function() { scrollToTarget(initial, false); });
     }
+  }
+
+  // ---------- Responsive nav (replaces greedy-nav from main.min.js) ----------
+  // Keeps the same DOM contract the theme's CSS expects: links live in
+  // .visible-links, overflow moves to .hidden-links, and .hidden / .close
+  // drive the toggle button.
+  function initGreedyNav() {
+    var nav = document.querySelector('.greedy-nav');
+    if (!nav) return;
+
+    var visible = nav.querySelector('.visible-links');
+    var hidden = nav.querySelector('.hidden-links');
+    var toggle = nav.querySelector('button');
+    if (!visible || !hidden || !toggle) return;
+
+    /* Remember the original order so items can move back on resize. */
+    var items = Array.prototype.slice.call(visible.children);
+    var brand = items.length ? items[0] : null;
+
+    function close() {
+      hidden.classList.add('hidden');
+      toggle.classList.remove('close');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+
+    function available() {
+      /* Width the links may occupy: the nav minus the toggle and the
+         theme-toggle group parked at the right edge. */
+      var actions = document.querySelector('.masthead__actions');
+      var reserved = (actions ? actions.offsetWidth + 24 : 0);
+      if (!hidden.classList.contains('hidden') || hasOverflow()) reserved += toggle.offsetWidth;
+      return nav.clientWidth - reserved;
+    }
+
+    function hasOverflow() {
+      return hidden.children.length > 0;
+    }
+
+    function widthOf(list) {
+      var total = 0;
+      Array.prototype.forEach.call(list.children, function(li) { total += li.offsetWidth; });
+      return total;
+    }
+
+    function layout() {
+      /* Start from everything visible, then push the tail out until it fits. */
+      while (hidden.children.length) {
+        visible.appendChild(hidden.firstElementChild);
+      }
+      hidden.classList.add('hidden');
+
+      var limit = available();
+      var guard = 0;
+      while (widthOf(visible) > limit && visible.children.length > 1 && guard < 50) {
+        var last = visible.lastElementChild;
+        if (last === brand) break;
+        hidden.insertBefore(last, hidden.firstChild);
+        limit = available();
+        guard++;
+      }
+
+      toggle.classList.toggle('hidden', !hasOverflow());
+      if (!hasOverflow()) close();
+    }
+
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.setAttribute('aria-label', 'Toggle menu');
+    toggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var open = hidden.classList.contains('hidden');
+      hidden.classList.toggle('hidden', !open);
+      toggle.classList.toggle('close', open);
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+
+    hidden.addEventListener('click', function(e) {
+      if (e.target.closest('a')) close();
+    });
+
+    document.addEventListener('click', function(e) {
+      if (!nav.contains(e.target)) close();
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') close();
+    });
+
+    var queued = false;
+    window.addEventListener('resize', function() {
+      if (queued) return;
+      queued = true;
+      window.requestAnimationFrame(function() { queued = false; layout(); });
+    });
+
+    layout();
+    /* Webfonts change the measurements, so lay out again once they land. */
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(layout);
   }
 
   // ---------- Active section in the nav + scroll progress ----------
@@ -298,6 +394,7 @@
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function() {
+      initGreedyNav();
       initThemeToggle();
       initFadeIn();
       initAnchorOffset();
@@ -306,6 +403,7 @@
       initCopyEmail();
     });
   } else {
+    initGreedyNav();
     initThemeToggle();
     initFadeIn();
     initAnchorOffset();
