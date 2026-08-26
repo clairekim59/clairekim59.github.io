@@ -2,7 +2,7 @@
 permalink: /
 title: ""
 excerpt: "About"
-author_profile: true
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
@@ -12,11 +12,7 @@ redirect_from:
   - /talks/
 ---
 
-Hi,
-======
-{:#about}
-
-<p class="availability" markdown="0"><span class="availability__dot" aria-hidden="true"></span> Available from <strong>December 2026</strong> &mdash; actively interviewing now</p>
+{% include hero.html %}
 
 I am **Claire (Nayoung) Kim**, a Computer Science Ph.D. candidate at the [School of Computing and Augmented Intelligence (SCAI)](https://scai.engineering.asu.edu/) at Arizona State University, graduating in November 2026. I work in the [Data Mining and Machine Learning Lab](https://dmml.asu.edu/) with Dr. Huan Liu and Dr. Mickey Mancenido, building and evaluating trustworthy LLM systems &mdash; fairness and bias mitigation, hallucination, robustness, and human-centered AI evaluation.
 

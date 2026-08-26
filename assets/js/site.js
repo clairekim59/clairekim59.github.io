@@ -245,7 +245,7 @@
 
   // ---------- Copy email address ----------
   function initCopyEmail() {
-    var link = document.querySelector('.author__urls a[href^="mailto:"]');
+    var link = document.querySelector('.contact a[href^="mailto:"], .author__urls a[href^="mailto:"]');
     if (!link || !navigator.clipboard) return;
 
     var address = link.getAttribute('href').replace(/^mailto:/, '').split('?')[0];

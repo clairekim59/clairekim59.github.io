@@ -4,7 +4,10 @@
   <div class="masthead__inner-wrap">
     <!-- Outside .greedy-nav on purpose: greedy-nav claims every button inside
          the nav as its overflow toggle and hides it. -->
-    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">☾</button>
+    <div class="masthead__actions">
+      <a class="masthead__cta" href="mailto:{{ site.author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span></a>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">☾</button>
+    </div>
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
