@@ -296,19 +296,6 @@
     });
   }
 
-  // ---------- Tab title animation ----------
-  function initTitleSwap() {
-    var originalTitle = document.title;
-    var awayTitle = '👋 Come back!';
-    document.addEventListener('visibilitychange', function() {
-      if (document.hidden) {
-        document.title = awayTitle;
-      } else {
-        document.title = originalTitle;
-      }
-    });
-  }
-
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function() {
       initThemeToggle();
@@ -317,7 +304,6 @@
       initNavSpy();
       initProjectToggles();
       initCopyEmail();
-      initTitleSwap();
     });
   } else {
     initThemeToggle();
@@ -326,6 +312,5 @@
     initNavSpy();
     initProjectToggles();
     initCopyEmail();
-    initTitleSwap();
   }
 })();
