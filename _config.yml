@@ -9,6 +9,7 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Claire Kim"
+masthead_title           : "clairekim.info" # wordmark in the top-left; the page <title> stays site.title
 title_separator          : "-"
 name                     : &name "Claire Kim"
 description              : &description "Personal homepage of Claire (Nayoung) Kim, Computer Science Ph.D. candidate at Arizona State University researching trustworthy and fair NLP/LLM systems."

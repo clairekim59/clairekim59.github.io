@@ -150,12 +150,16 @@ em { color: $dark-gray; }
     &:hover { color: $navy; }
   }
 
+  /* wordmark: a domain reads better as a lowercase sans lockup than as a
+     serif heading, and it stops competing with the h1 underneath it */
   .masthead__menu-item--lg a {
-    font-family: $serif;
+    font-family: $sans-serif;
     font-weight: 600;
-    font-size: 1.18em;
-    letter-spacing: -0.01em;
+    font-size: 1.02em;
+    letter-spacing: -0.008em;
     color: $darker-gray;
+
+    &:hover { color: $accent; }
   }
 
   .nav-dropdown {
