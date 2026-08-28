@@ -137,7 +137,7 @@ Full list on my [Google Scholar profile]({{ site.author.googlescholar }}) and th
     <span class="pub__body">
       <span class="pub__title">Adaptive Triggering for Bias Correction in LLM Reasoning</span>
       <span class="pub__authors"><strong>Nayoung Kim</strong>, Mickey Mancenido, Huan Liu</span>
-      <span class="pub__links"><a href="{{ base_path }}/files/AdaptiveTriggering_preprint.pdf">Preprint</a> <a href="https://github.com/clairekim59/adaptive-triggering">Code</a></span>
+      <span class="pub__links"><a href="https://arxiv.org/abs/2608.25379">Preprint</a> <a href="https://github.com/clairekim59/adaptive-triggering">Code</a></span>
     </span>
   </div>
 
@@ -199,7 +199,7 @@ A selection of research projects spanning trustworthy LLMs, fairness and bias mi
 * Compared white-box (next-token logits) and black-box (LLM-judge) bias-risk signals across **seven open-weight models and GPT-4o-mini**, running large-scale experiments on ASU's Sol supercomputer. The white-box signal improved ambiguous-context accuracy on all six evaluated models but *hurt* disambiguated accuracy on five &mdash; it cannot separate unsupported stereotype reliance from correct, stereotype-congruent evidence. Adaptive timing cannot rescue a misaligned signal.
 * Found and corrected **four undocumented schema errors in the BBQ benchmark** that had left 17–50% of items in affected categories mis-scored, and open-sourced the fix.
 
-<span class="resource-links resource-links--inline" markdown="0"><a class="btn btn--primary" href="{{ base_path }}/files/AdaptiveTriggering_preprint.pdf">Read the paper</a> <a class="btn btn--accent-outline" href="https://github.com/clairekim59/adaptive-triggering">Code</a></span>
+<span class="resource-links resource-links--inline" markdown="0"><a class="btn btn--primary" href="https://arxiv.org/abs/2608.25379">Read the paper</a> <a class="btn btn--accent-outline" href="https://github.com/clairekim59/adaptive-triggering">Code</a></span>
 
 <div class="tech-stack" markdown="0"><span class="tech-stack__label">Tech</span> <span>Python</span> <span>PyTorch</span> <span>CUSUM / change-point detection</span> <span>LLM-as-a-judge</span> <span>Inference-time intervention</span> <span>BBQ benchmark</span> <span>HPC (Sol)</span> <span>McNemar / bootstrap testing</span></div>
 

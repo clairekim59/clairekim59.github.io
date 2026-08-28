@@ -67,7 +67,7 @@ A complete list is also available on my [Google Scholar profile]({{ site.author.
 **Nayoung Kim**, Mickey Mancenido, Huan Liu\
 *Under review, 2026.*
 
-<div class="resource-links" markdown="0"><a class="btn btn--accent-outline" href="{{ base_path }}/files/AdaptiveTriggering_preprint.pdf">Preprint</a> <a class="btn btn--accent-outline" href="https://github.com/clairekim59/adaptive-triggering">Code</a></div>
+<div class="resource-links" markdown="0"><a class="btn btn--accent-outline" href="https://arxiv.org/abs/2608.25379">Preprint</a> <a class="btn btn--accent-outline" href="https://github.com/clairekim59/adaptive-triggering">Code</a></div>
 
 ### 2025
 

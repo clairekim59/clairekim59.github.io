@@ -132,7 +132,10 @@ em { color: $dark-gray; }
 /* ---------- Masthead / top nav ---------- */
 .masthead {
   border-bottom: 1px solid rgba($accent, 0.35);
-  background: #fdf8f1;
+  /* Warm sand, light enough to keep the near-black nav type readable but
+     clearly tinted against the white page body, so the bar reads as its own
+     band rather than as more page. */
+  background: #f4e9d8;
 
   /* Accent rule pinned to the very top of the bar. Same navy -> copper ramp
      as .scroll-progress, so the two read as one system when you scroll. */
@@ -701,7 +704,7 @@ em { color: $dark-gray; }
 .masthead {
   position: sticky;
   top: 0;
-  background: rgba(253, 248, 241, 0.94);
+  background: rgba(244, 233, 216, 0.95);
   backdrop-filter: saturate(180%) blur(8px);
   -webkit-backdrop-filter: saturate(180%) blur(8px);
 }
