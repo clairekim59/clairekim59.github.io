@@ -46,6 +46,7 @@ Experience
 
 <div class="timeline" markdown="1">
 
+* **Applied AI Engineer**, [Cognizant](https://www.cognizant.com/) &mdash; Remote · Sep 2026 – Present
 * **Applied Scientist Intern**, [Amazon](https://logistics.amazon.com/) &mdash; Bellevue, WA · Sep – Dec 2025
 * **AI/ML Intern**, [AMD](https://www.amd.com/en.html) &mdash; Austin, TX · May – Aug 2025
 * **Software Development Intern**, [AMD](https://www.amd.com/en.html) &mdash; Austin, TX · Aug – Dec 2024
