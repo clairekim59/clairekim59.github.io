@@ -131,8 +131,21 @@ em { color: $dark-gray; }
 
 /* ---------- Masthead / top nav ---------- */
 .masthead {
-  border-bottom: 1px solid $lighter-gray;
+  border-bottom: 1px solid rgba($accent, 0.3);
   background: #fff;
+
+  /* Accent rule pinned to the very top of the bar. Same navy -> copper ramp
+     as .scroll-progress, so the two read as one system when you scroll. */
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(to right, $navy, $accent 58%, $accent-soft);
+    z-index: 31;
+  }
 }
 
 .greedy-nav {
@@ -146,7 +159,7 @@ em { color: $dark-gray; }
     color: $darker-gray;
     transition: color 0.15s ease;
 
-    &:hover { color: $navy; }
+    &:hover { color: $accent; }
   }
 
   /* wordmark: a domain reads better as a lowercase sans lockup than as a
@@ -796,9 +809,9 @@ html {
   vertical-align: middle;
 
   &:hover {
-    background: rgba($navy, 0.06);
-    color: $navy;
-    border-color: rgba($navy, 0.4);
+    background: rgba($accent, 0.09);
+    color: $accent;
+    border-color: rgba($accent, 0.45);
   }
 }
 
@@ -1528,13 +1541,17 @@ body {
 
   .masthead {
     background: #0a1228;
-    border-bottom-color: #1e293b;
+    border-bottom-color: rgba(246, 217, 139, 0.26);
+
+    &:before {
+      background: linear-gradient(to right, #93c5fd, #f6d98b 58%, #fce9b8);
+    }
   }
 
   .greedy-nav {
     background: transparent;
     a { color: #e2e8f0; }
-    a:hover { color: #93c5fd; }
+    a:hover { color: #f6d98b; }
     .masthead__menu-item--lg a { color: #f1f5f9; }
 
     .visible-links .nav-dropdown__menu {
@@ -1869,9 +1886,9 @@ body {
     border-color: #334155;
 
     &:hover {
-      background: #1e293b;
-      color: #93c5fd;
-      border-color: #93c5fd;
+      background: rgba(246, 217, 139, 0.12);
+      color: #f6d98b;
+      border-color: rgba(246, 217, 139, 0.5);
     }
   }
 
