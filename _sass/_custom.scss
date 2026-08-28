@@ -131,8 +131,8 @@ em { color: $dark-gray; }
 
 /* ---------- Masthead / top nav ---------- */
 .masthead {
-  border-bottom: 1px solid rgba($accent, 0.3);
-  background: #fff;
+  border-bottom: 1px solid rgba($accent, 0.35);
+  background: #fdf8f1;
 
   /* Accent rule pinned to the very top of the bar. Same navy -> copper ramp
      as .scroll-progress, so the two read as one system when you scroll. */
@@ -142,7 +142,7 @@ em { color: $dark-gray; }
     top: 0;
     left: 0;
     right: 0;
-    height: 3px;
+    height: 4px;
     background: linear-gradient(to right, $navy, $accent 58%, $accent-soft);
     z-index: 31;
   }
@@ -701,7 +701,7 @@ em { color: $dark-gray; }
 .masthead {
   position: sticky;
   top: 0;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(253, 248, 241, 0.94);
   backdrop-filter: saturate(180%) blur(8px);
   -webkit-backdrop-filter: saturate(180%) blur(8px);
 }
@@ -1414,7 +1414,10 @@ body {
   height: 2px;
   background: transparent;
   pointer-events: none;
-  z-index: 30;
+  /* Below the nav's stacking context (nav { z-index: 10 } in _masthead.scss),
+     or this hairline paints over the open Projects dropdown. Nothing else sits
+     on the masthead's bottom edge, so it loses nothing by sitting low. */
+  z-index: 5;
 
   span {
     display: block;

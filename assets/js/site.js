@@ -351,6 +351,30 @@
     var address = link.getAttribute('href').replace(/^mailto:/, '').split('?')[0];
     if (!address) return;
 
+    // "Copied" is shorter than the address, so swapping the text would shrink
+    // the pill mid-click. Reserve the address's own width up front and centre
+    // whatever sits in it, so the chip is the same size copied or not. Measured
+    // after webfonts settle - Karla is wider than the fallback, and locking a
+    // fallback-sized box would clip the address once the real face loads.
+    function lockWidth() {
+      // Only ever measure the address itself - re-measuring while the flash
+      // message is showing would lock in the shorter string's width.
+      if (label.textContent !== address) return;
+      label.style.minWidth = '';
+      var w = label.getBoundingClientRect().width;
+      if (!w) return;
+      label.style.display = 'inline-block';
+      label.style.textAlign = 'center';
+      label.style.minWidth = w + 'px';
+    }
+
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(lockWidth).catch(lockWidth);
+    } else {
+      lockWidth();
+    }
+    window.addEventListener('resize', lockWidth);
+
     function restore() {
       label.textContent = address;
       link.classList.remove('is-copied');
