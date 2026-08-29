@@ -21,7 +21,7 @@ redirect_from:
   <div class="stat"><span class="stat__num">10</span><span class="stat__label">research projects since 2017</span></div>
 </div>
 
-I am **Claire (Nayoung) Kim**, a Computer Science Ph.D. candidate at the [School of Computing and Augmented Intelligence (SCAI)](https://scai.engineering.asu.edu/) at Arizona State University, graduating in November 2026. I work in the [Data Mining and Machine Learning Lab](https://dmml.asu.edu/) with Dr. Huan Liu and Dr. Mickey Mancenido, building and evaluating trustworthy LLM systems &mdash; fairness and bias mitigation, hallucination, robustness, and human-centered AI evaluation.
+I am **Claire (Nayoung) Kim**, a Computer Science Ph.D. candidate at the [School of Computing and Augmented Intelligence (SCAI)](https://scai.engineering.asu.edu/) at Arizona State University, graduating expected in December 2026. I work in the [Data Mining and Machine Learning Lab](https://dmml.asu.edu/) with Dr. Huan Liu and Dr. Mickey Mancenido, building and evaluating trustworthy LLM systems &mdash; fairness and bias mitigation, hallucination, robustness, and human-centered AI evaluation.
 
 Alongside the research, I have built enterprise AI systems at Amazon and AMD: large-scale LLM training, inference, and evaluation pipelines on GPU infrastructure, agentic and RAG architectures, post-training and alignment (RLHF, LoRA, PEFT), and the ML platforms that keep them running in production.
 
