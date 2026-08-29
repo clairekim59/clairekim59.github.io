@@ -139,6 +139,16 @@ em { color: $dark-gray; }
   }
 }
 
+/* ---------- Icons ---------- */
+/* The theme sets .icon { fill: currentColor }, and CSS beats an SVG's fill=""
+   presentation attribute - so every stroke-drawn Lucide icon was flood-filled
+   into a solid blob. The mail glyph in particular rendered as a plain rose
+   rectangle with no envelope in it. Brand marks (.icon--brand, GitHub and
+   LinkedIn) are genuinely filled paths and must keep the fill. */
+svg.icon:not(.icon--brand) {
+  fill: none;
+}
+
 /* ---------- Masthead / top nav ---------- */
 .masthead {
   border-bottom: 1px solid rgba($accent, 0.35);
@@ -499,7 +509,6 @@ em { color: $dark-gray; }
   }
 }
 
-.profile-actions,
 .action-links {
   display: flex;
   flex-wrap: wrap;
@@ -510,15 +519,25 @@ em { color: $dark-gray; }
   .btn { margin: 0; }
 }
 
-.profile-actions {
-  padding: 0.75em;
-  background: #f8fafc;
-  border: 1px solid $lighter-gray;
-  border-radius: 6px;
-}
-
 .action-links {
   margin-top: 0.45em;
+}
+
+
+/* The resume download lives in the contact row now rather than in its own band.
+   Filled navy so the single action still leads a row of identity links. */
+.page__content ul.contact a.contact__resume {
+  background: $navy;
+  border-color: $navy;
+  color: #fff !important;
+
+  .icon { color: #fff; }
+
+  &:hover {
+    background: $navy-mid;
+    border-color: $navy-mid;
+    color: #fff !important;
+  }
 }
 
 /* ---------- Non-clickable tech chips ---------- */
@@ -1796,9 +1815,18 @@ body {
       radial-gradient(28% 32% at 78% 22%, rgba(240, 183, 198, 0.09), rgba(240, 183, 198, 0) 70%);
   }
 
-  .profile-actions {
-    background: rgba(15, 23, 42, 0.82);
-    border-color: #1e293b;
+  .page__content ul.contact a.contact__resume {
+    background: $navy-mid;
+    border-color: $navy-mid;
+    color: #f1f5f9 !important;
+
+    .icon { color: #f1f5f9; }
+
+    &:hover {
+      background: #38618f;
+      border-color: #38618f;
+      color: #fff !important;
+    }
   }
 
   .tech-stack {

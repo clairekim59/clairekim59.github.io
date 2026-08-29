@@ -18,7 +18,7 @@ redirect_from:
   <li><a href="https://www.linkedin.com/in/{{ a.linkedin }}">{% include icon.html name="linkedin" %} LinkedIn</a></li>
   <li><a href="https://github.com/{{ a.github }}">{% include icon.html name="github" %} GitHub</a></li>
   <li><a href="{{ a.googlescholar }}">{% include icon.html name="graduation-cap" %} Google Scholar</a></li>
-  <li><a href="{{ base_path }}/files/ClaireKim_resume.pdf">{% include icon.html name="file-text" %} Resume</a></li>
+  <li><a class="contact__resume" href="{{ base_path }}/files/ClaireKim_resume.pdf">{% include icon.html name="file-text" %} Resume</a></li>
 </ul>
 
 

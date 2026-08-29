@@ -32,14 +32,6 @@ Alongside the research, I have built enterprise AI systems at Amazon and AMD, an
   <span>NLP / LLM Systems</span>
 </div>
 
-<p class="profile-actions">
-  <a class="btn btn--primary btn--spotlight" href="{{ base_path }}/files/ClaireKim_resume.pdf">{% include icon.html name="file-text" %} Download Resume</a>
-  <a class="btn btn--accent-outline" href="#research-projects">Research Projects</a>
-  <a class="btn btn--accent-outline" href="#dev-projects">Dev Projects</a>
-  <a class="btn btn--accent-outline" href="{{ base_path }}/cv/">Full CV</a>
-</p>
-
-
 Experience
 ------
 {:#experience}
@@ -128,7 +120,7 @@ Selected Publications
 ------
 {:#publications}
 
-Full list on my [Google Scholar profile]({{ site.author.googlescholar }}) and the [complete CV]({{ base_path }}/cv/). **Bold** marks my name.
+Full list on my [Google Scholar profile]({{ site.author.googlescholar }}). **Bold** marks my name.
 
 <div class="pubs" markdown="0">
 
