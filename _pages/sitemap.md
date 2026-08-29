@@ -7,31 +7,36 @@ author_profile: false
 
 {% include base_path %}
 
-A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
+Everything on this site, in one place. There is an [XML version]({{ base_path }}/sitemap.xml) for crawlers.
 
-<h2>Pages</h2>
-{% for post in site.pages %}
-  {% include archive-single.html %}
-{% endfor %}
+Pages
+------
 
-<h2>Posts</h2>
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+* **[Home]({{ base_path }}/)** &mdash; profile, experience, skills, publications and projects
+* **[Curriculum Vitae]({{ base_path }}/cv/)** &mdash; full CV, formatted to print straight to PDF
 
-{% capture written_label %}'None'{% endcapture %}
+Sections on the home page
+------
 
-{% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
-  {% endif %}
-{% endunless %}
-{% for post in collection.docs %}
-  {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
-{% endfor %}
+<!-- Generated from _data/navigation.yml so this list cannot drift out of sync
+     with the nav. Entries with children contribute their children instead of
+     themselves (Projects and its Research child point at the same anchor), and
+     anything without a '#' is a real page, already listed above. -->
+<ul>
+{%- for link in site.data.navigation.main -%}
+  {%- if link.children -%}
+    {%- for child in link.children %}
+  <li><a href="{{ base_path }}{{ child.url }}">{{ child.title }}</a></li>
+    {%- endfor -%}
+  {%- elsif link.url contains '#' %}
+  <li><a href="{{ base_path }}{{ link.url }}">{{ link.title }}</a></li>
+  {%- endif -%}
+{%- endfor %}
+</ul>
+
+Elsewhere
+------
+
+* [Google Scholar]({{ site.author.googlescholar }})
+* [GitHub](https://github.com/{{ site.author.github }})
+* [LinkedIn](https://www.linkedin.com/in/{{ site.author.linkedin }})
