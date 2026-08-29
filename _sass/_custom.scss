@@ -139,19 +139,6 @@ em { color: $dark-gray; }
      clearly tinted against the white page body, so the bar reads as its own
      band rather than as more page. */
   background: #f7ecef;
-
-  /* Accent rule pinned to the very top of the bar. Same navy -> copper ramp
-     as .scroll-progress, so the two read as one system when you scroll. */
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: linear-gradient(to right, $silver, $accent 58%, $accent-soft);
-    z-index: 31;
-  }
 }
 
 .greedy-nav {
@@ -1549,12 +1536,10 @@ body {
   }
 
   .masthead {
-    background: #0a1228;
+    /* Lighter than the #0f172a body, mirroring how the light-mode bar sits
+       tinted against white - a bar darker than the page reads as a gap. */
+    background: #1c2743;
     border-bottom-color: rgba(240, 183, 198, 0.26);
-
-    &:before {
-      background: linear-gradient(to right, #cbd5e1, #f0b7c6 58%, #f9dde4);
-    }
   }
 
   .greedy-nav {
