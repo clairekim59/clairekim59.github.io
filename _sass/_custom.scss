@@ -139,6 +139,13 @@ em { color: $dark-gray; }
   }
 }
 
+/* An h2's 3.6em top margin is spacing BETWEEN long sections. When an h2 is the
+   first thing under the page title - as on the CV and the sitemap, which have no
+   intro block - that margin is just a hole. */
+.page__content .page__title + h2 {
+  margin-top: 1.2em;
+}
+
 /* ---------- Focus ring ---------- */
 /* The theme paints a:focus with a 5px #f89406 orange ring - the last gold in
    anything that actually renders, and it fired on every keyboard-focused link.
