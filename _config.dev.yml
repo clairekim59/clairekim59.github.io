@@ -1,0 +1,14 @@
+# Local-preview overrides. Layer on top of the real config:
+#
+#   bundle exec jekyll serve --config _config.yml,_config.dev.yml
+#
+# _includes/base_path derives every asset and nav URL from site.url, so with the
+# production value a local build asks the browser for CSS, JS and images from
+# https://clairekim.info - the deployed site. Local edits then never appear in a
+# local preview, and a screenshot of `jekyll serve` is really a screenshot of
+# production. Blanking url makes those paths root-relative so the preview
+# reflects the working tree.
+#
+# Only ever pass this for local work. The deploy must keep the absolute url:
+# canonical tags, og:image and the sitemap all need the real hostname.
+url: ""
