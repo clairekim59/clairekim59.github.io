@@ -53,6 +53,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500..700&family=Karla:ital,wght@0,400..700;1,400..600&display=swap" rel="stylesheet">
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+<!-- ?v= is the build timestamp: without it the browser and the Pages CDN keep
+     serving a cached main.css for hours after a deploy, so CSS changes look
+     like they never shipped. Changes every build, so it only busts on deploy. -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css?v={{ site.time | date: '%s' }}">
 
 <meta http-equiv="cleartype" content="on">
