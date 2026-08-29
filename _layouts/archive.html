@@ -15,7 +15,12 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <div class="archive">
+  <!-- page__content as well as archive: every rule in _custom.scss is scoped
+       .page__content, so without this the CV renders with none of the site's
+       design - contact chips fall back to raw <ul> bullets and the section
+       headings lose their accent rules. .page__content only sets
+       position:relative, so .archive keeps owning width and float. -->
+  <div class="archive page__content">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}

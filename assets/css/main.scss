@@ -28,5 +28,8 @@
 @import "page";
 @import "archive";
 
-@import "print";
 @import "custom";
+
+// Print last: these are overrides, and _custom.scss would otherwise win on
+// source order at equal specificity.
+@import "print";

@@ -11,6 +11,13 @@ $accent: #b76e79;        /* dusty rose for stripes / hovers / spotlight */
 $accent-soft: #e2b4bf;   /* light pink for subtle states */
 $silver: #9aa4b2;        /* mid silver: gradient partner + secondary strokes */
 
+/* The dark end of the palette. Navy does every structural dark job - headings,
+   body copy, links, filled pills - and the rose stays a point colour that never
+   carries structure. $navy (#1a365d) and $navy-dark come from _variables.scss;
+   $navy-mid names the lighter navy that was hardcoded as #2c4f7c across the
+   headings, so the whole dark ramp is declared in one place. */
+$navy-mid: #2c4f7c;
+
 /* ---------- Body type ---------- */
 body {
   font-family: $sans-serif;
@@ -57,7 +64,7 @@ em { color: $dark-gray; }
     font-size: 1.6em;
     font-weight: 700;
     letter-spacing: -0.012em;
-    color: #2c4f7c;
+    color: $navy-mid;
     margin: 3.6em 0 0.9em;
     padding-top: 1.6em;
     padding-bottom: 0;
@@ -83,7 +90,7 @@ em { color: $dark-gray; }
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #2c4f7c;
+    color: $navy-mid;
     margin: 2.4em 0 0.7em;
     padding-bottom: 0.35em;
     border-bottom: 1px solid $lighter-gray;
@@ -143,6 +150,32 @@ em { color: $dark-gray; }
 
 .greedy-nav {
   background: transparent;
+
+  /* The theme's display:table left every link bunched behind the wordmark with
+     ~280px of dead bar between the last one and the theme toggle. Flex lets the
+     wordmark hold the left edge while the links ride right, next to the toggle.
+     The li's stay flex:0 0 auto because site.js sizes the overflow menu by
+     summing li.offsetWidth - shrinking items would corrupt that measurement.
+
+     Only above $large (1200px). That dead space is a wide-viewport problem;
+     below it the links already fill the bar, and right-aligning them ran the
+     last link under the theme toggle and the greedy-nav hamburger. padding-right
+     clears the absolutely-positioned .masthead__actions. */
+  @include breakpoint($large) {
+    .visible-links {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding-right: 4em;
+
+      > li {
+        display: block;
+        flex: 0 0 auto;
+      }
+
+      .masthead__menu-item--lg { margin-right: auto; }
+    }
+  }
 
   a {
     font-family: $sans-serif;
@@ -321,7 +354,7 @@ em { color: $dark-gray; }
   transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, color 0.15s ease, transform 0.1s ease;
 
   &:focus-visible {
-    outline: 3px solid rgba(#2c4f7c, 0.28);
+    outline: 3px solid rgba($navy-mid, 0.28);
     outline-offset: 2px;
   }
 
@@ -368,25 +401,25 @@ em { color: $dark-gray; }
   }
 
   &.btn--spotlight {
-    background: #2c4f7c;
-    border-color: #2c4f7c !important;
-    border-bottom-color: #2c4f7c !important;
+    background: $navy-mid;
+    border-color: $navy-mid !important;
+    border-bottom-color: $navy-mid !important;
     font-weight: 700;
-    box-shadow: 0 0 0 4px rgba(#2c4f7c, 0.12), 0 10px 24px rgba(#2c4f7c, 0.22);
+    box-shadow: 0 0 0 4px rgba($navy-mid, 0.12), 0 10px 24px rgba($navy-mid, 0.22);
 
     &:hover {
       background: #1f3d63;
       border-color: #1f3d63 !important;
       color: #fff !important;
       transform: translateY(-2px);
-      box-shadow: 0 0 0 4px rgba(#2c4f7c, 0.16), 0 14px 30px rgba(#2c4f7c, 0.28);
+      box-shadow: 0 0 0 4px rgba($navy-mid, 0.16), 0 14px 30px rgba($navy-mid, 0.28);
     }
   }
 
   &.btn--accent-outline {
     background: #eef4fb;
-    border: 1px solid #2c4f7c !important;
-    border-bottom: 1px solid #2c4f7c !important;
+    border: 1px solid $navy-mid !important;
+    border-bottom: 1px solid $navy-mid !important;
     color: #24476f !important;
     font-weight: 650;
     text-decoration: none !important;
@@ -397,7 +430,7 @@ em { color: $dark-gray; }
       border-bottom-color: #1f3d63 !important;
       color: #1f3d63 !important;
       transform: translateY(-1px);
-      box-shadow: 0 8px 18px rgba(#2c4f7c, 0.14);
+      box-shadow: 0 8px 18px rgba($navy-mid, 0.14);
     }
   }
 }
@@ -418,7 +451,7 @@ em { color: $dark-gray; }
   box-shadow: 0 12px 28px rgba($accent, 0.12);
 
   strong {
-    color: #2c4f7c;
+    color: $navy-mid;
   }
 
   &:before {
@@ -459,10 +492,10 @@ em { color: $dark-gray; }
   }
 
   .role-tag--primary {
-    background: #2c4f7c;
-    border-color: #2c4f7c;
+    background: $navy-mid;
+    border-color: $navy-mid;
     color: #fff;
-    box-shadow: 0 5px 14px rgba(#2c4f7c, 0.18);
+    box-shadow: 0 5px 14px rgba($navy-mid, 0.18);
   }
 }
 
@@ -869,7 +902,7 @@ body {
   font-weight: 600;
   line-height: 1.45;
   letter-spacing: -0.005em;
-  color: #2c4f7c;
+  color: $navy-mid;
 }
 
 .page__content .lede__meta {
@@ -1070,7 +1103,7 @@ body {
   font-weight: 600;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: #2c4f7c;
+  color: $navy-mid;
 }
 
 .stat__label {
@@ -1250,7 +1283,7 @@ body {
   font-weight: 700;
   line-height: 1.3;
   letter-spacing: -0.01em;
-  color: #2c4f7c;
+  color: $navy-mid;
 }
 
 .proj__status {
@@ -1341,7 +1374,7 @@ body {
   font-weight: 700;
   line-height: 1.35;
   letter-spacing: -0.01em;
-  color: #2c4f7c;
+  color: $navy-mid;
 }
 
 .pub__authors {

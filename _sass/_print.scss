@@ -1,18 +1,208 @@
 /* ==========================================================================
    PRINT STYLES
-   ========================================================================== */
 
-/*
-   Hide the following elements on print
+   The CV page is meant to be the deliverable here: "Print to PDF" from /cv/
+   should produce a clean document, so a hand-maintained resume PDF cannot drift
+   out of date. Rules are written to apply to any page, but /cv/ is the target.
    ========================================================================== */
 
 @media print {
+
+  @page {
+    margin: 14mm 15mm 16mm;
+  }
+
+  /* Dark mode must not follow the page onto paper - a printer would render the
+     navy background as a full-bleed ink block. Force the light palette back on
+     regardless of which theme the visitor is viewing in. */
+  html,
+  html[data-theme="dark"],
+  html[data-theme="dark"] body,
+  body {
+    background: #fff !important;
+    color: #111 !important;
+  }
+
+  body {
+    padding-bottom: 0;
+    font-size: 10.5pt;
+    line-height: 1.45;
+  }
+
+  /* The scroll reveal starts every section at opacity:0 and only clears it when
+     an IntersectionObserver fires on scroll. Printing never scrolls, so without
+     this everything below the first screen prints blank - the page comes out as
+     headings floating over empty paper. */
+  .fade-in-up,
+  .fade-in-up.is-visible {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+  }
+
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  /* Site furniture that means nothing on paper. .contact is deliberately NOT
+     hidden - a printed CV without an email address is useless. */
   .masthead,
-  .toc,
+  .masthead__actions,
+  .theme-toggle,
+  .scroll-progress,
+  .page__footer,
   .page__share,
   .page__related,
+  .toc,
   .ads,
-  .page__footer {
-    display: none;
+  .back-to-top,
+  .expand-all,
+  .resource-links,
+  .role-tags,
+  .profile-actions,
+  .stats,
+  .nav-dropdown__menu {
+    display: none !important;
+  }
+
+  /* The layout floats the article against a phantom sidebar; on paper it should
+     simply be the full text column. */
+  .page,
+  .archive,
+  .page__content,
+  #main {
+    width: 100% !important;
+    max-width: 100% !important;
+    float: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Decorative washes cost toner and add nothing. */
+  .page__content:before,
+  .masthead:before {
+    display: none !important;
+  }
+
+  /* Links print as plain text: a CV is read on paper, and underlined blue runs
+     make the dense entries harder to scan. The URLs themselves are not appended
+     for the same reason - the page already names arXiv, GitHub and Scholar. */
+  a,
+  .page__content a {
+    color: #111 !important;
+    text-decoration: none !important;
+    background-image: none !important;
+  }
+
+  /* Contact row degrades from pills to a plain inline list. */
+  .page__content ul.contact {
+    display: block !important;
+    margin: 0 0 1.2em !important;
+    padding: 0 !important;
+    list-style: none !important;
+
+    li {
+      display: inline !important;
+
+      &:not(:last-child):after {
+        content: " · ";
+      }
+    }
+
+    a {
+      display: inline !important;
+      padding: 0 !important;
+      border: 0 !important;
+      background: none !important;
+      box-shadow: none !important;
+      font-size: 10.5pt !important;
+    }
+
+    .icon,
+    svg {
+      display: none !important;
+    }
+  }
+
+  /* Headings keep their hierarchy but lose the screen-scale sizing and the
+     accent rules, which print as grey smears. */
+  .page__content {
+    h1 {
+      font-size: 20pt;
+      margin: 0 0 0.5em;
+      padding-bottom: 0.2em;
+      border-bottom: 1pt solid #999;
+    }
+
+    h2 {
+      font-size: 13pt;
+      margin: 1.4em 0 0.5em;
+      padding-top: 0.5em;
+      border-top: 1pt solid #ccc;
+
+      &:before { display: none !important; }
+    }
+
+    h3 {
+      font-size: 10.5pt;
+      margin: 1em 0 0.4em;
+      border-bottom: 0;
+    }
+
+    p,
+    li {
+      font-size: 10.5pt;
+      line-height: 1.45;
+      color: #111 !important;
+    }
+  }
+
+  /* Pagination: never strand a heading at the foot of a page, never split a
+     single role or publication across the fold. */
+  h1, h2, h3, h4 {
+    break-after: avoid-page;
+    page-break-after: avoid;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  ul > li,
+  .pub,
+  .timeline > ul > li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  p, li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Collapsibles print expanded - a closed <details> would silently drop
+     content from the printed document. */
+  details {
+    display: block !important;
+
+    > summary {
+      list-style: none;
+      font-weight: 700;
+
+      &:after { display: none !important; }
+    }
+  }
+
+  /* Cards and panels flatten: borders and shadows are screen affordances. */
+  .stat,
+  .pub,
+  .project-card,
+  .notice,
+  .notice--danger {
+    border: 0 !important;
+    box-shadow: none !important;
+    background: none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
