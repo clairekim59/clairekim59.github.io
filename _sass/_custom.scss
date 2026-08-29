@@ -139,6 +139,25 @@ em { color: $dark-gray; }
   }
 }
 
+/* ---------- Focus ring ---------- */
+/* The theme paints a:focus with a 5px #f89406 orange ring - the last gold in
+   anything that actually renders, and it fired on every keyboard-focused link.
+   Navy here, rose in dark mode where navy would disappear into the background.
+   :focus-visible so clicking a link with a mouse does not leave a ring behind;
+   the bare a:focus reset is what stops the theme's orange from showing. */
+a:focus {
+  outline: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid rgba($navy-mid, 0.55);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
 /* ---------- Icons ---------- */
 /* The theme sets .icon { fill: currentColor }, and CSS beats an SVG's fill=""
    presentation attribute - so every stroke-drawn Lucide icon was flood-filled
@@ -449,8 +468,8 @@ svg.icon:not(.icon--brand) {
 .open-to {
   display: block;
   position: relative;
-  background: #fff8e8;
-  border: 1px solid #ecd59b;
+  background: #fdf2f4;
+  border: 1px solid #eac6ce;
   border-left: 7px solid $accent;
   padding: 1em 1.1em;
   margin: 0.5em 0 1.2em;
@@ -1045,9 +1064,9 @@ body {
   font-family: $sans-serif;
   font-size: 0.86em;
   letter-spacing: 0.005em;
-  color: #7c5312;
+  color: #8a3b4a;
 
-  strong { color: #5f3d0a; }
+  strong { color: #6b2b38; }
 }
 
 /* one flex child, so the sentence wraps as text instead of as flex items */
@@ -1091,7 +1110,7 @@ body {
 .stat {
   position: relative;
   padding: 0.95em 1em 1em;
-  background: linear-gradient(180deg, #fff, #fbfaf7);
+  background: linear-gradient(180deg, #fff, #fbf9fa);
   border: 1px solid $lighter-gray;
   border-radius: 10px;
   box-shadow: 0 1px 2px rgba(26, 54, 93, 0.04);
@@ -1317,7 +1336,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   white-space: nowrap;
-  color: #7c5312;
+  color: #8a3b4a;
 }
 
 .proj__lede {
@@ -1665,7 +1684,7 @@ body {
     box-shadow: 0 8px 22px rgba(#000, 0.24);
 
     strong {
-      color: #fde68a;
+      color: #f9dde4;
     }
 
     &:before {
@@ -1726,7 +1745,7 @@ body {
     border-color: rgba(240, 183, 198, 0.35);
     color: #f0b7c6;
 
-    strong { color: #fde68a; }
+    strong { color: #f9dde4; }
   }
 
   .availability__dot {
@@ -1813,6 +1832,13 @@ body {
     background:
       radial-gradient(30% 34% at 24% 30%, rgba(147, 197, 253, 0.11), rgba(147, 197, 253, 0) 70%),
       radial-gradient(28% 32% at 78% 22%, rgba(240, 183, 198, 0.09), rgba(240, 183, 198, 0) 70%);
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  summary:focus-visible,
+  [tabindex]:focus-visible {
+    outline-color: rgba(240, 183, 198, 0.75);
   }
 
   .page__content ul.contact a.contact__resume {
@@ -1907,8 +1933,8 @@ body {
     box-shadow: 0 0 0 4px rgba(240, 183, 198, 0.16), 0 10px 24px rgba(240, 183, 198, 0.24);
 
     &:hover {
-      background: #fde68a;
-      border-color: #fde68a !important;
+      background: #f9dde4;
+      border-color: #f9dde4 !important;
       color: #0f172a !important;
       box-shadow: 0 0 0 4px rgba(240, 183, 198, 0.2), 0 14px 28px rgba(240, 183, 198, 0.3);
     }
