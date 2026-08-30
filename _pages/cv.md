@@ -16,10 +16,12 @@ redirect_from:
 Education
 ------
 * **Ph.D. in Computer Science**, Arizona State University &mdash; 2021 – 2026
-  * [Data Mining and Machine Learning Lab](https://dmml.asu.edu/); advisors: Dr. Huan Liu and Dr. Mickey Mancenido
+  * [Data Mining and Machine Learning Lab](https://dmml.asu.edu/)
+  * Advisors: Dr. Huan Liu and Dr. Mickey Mancenido
   * Funded by [DHS-CAOE](https://caoe.asu.edu/)
-* **M.E. in Computer Science & Engineering**, Korea University, Seoul &mdash; 2019
-* **B.S. in Computer Science & Engineering**, Korea University, Seoul &mdash; 2017
+* **M.E. in Computer Science & Engineering**, Korea University, Seoul &mdash; 2017 - 2019
+  * Advisor: Dr. Jaewoo Kang
+* **B.S. in Computer Science & Engineering**, Korea University, Seoul &mdash; 2013 - 2017
 
 Experience
 ------
