@@ -93,7 +93,7 @@ author:
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=j7sy8yQAAAAJ&hl=en"
-  email            : "nkim48@asu.edu"
+  email            :   # cleared deliberately: jekyll-feed publishes this in feed.xml
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
