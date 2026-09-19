@@ -518,6 +518,16 @@ svg.icon:not(.icon--brand) {
   overflow-wrap: anywhere;
 }
 
+/* Small ornament separating the English intro from its Korean twin. */
+.intro-divider {
+  margin: 1.6em 0 1.4em;
+  text-align: center;
+  font-size: 0.9em;
+  line-height: 1;
+  color: $accent;
+  user-select: none;
+}
+
 .role-tags {
   display: flex;
   flex-wrap: wrap;
@@ -1797,6 +1807,8 @@ body {
 
   .proj__title { color: #93c5fd; }
   .proj__lede { color: #94a3b8; }
+
+  .intro-divider { color: #f0b7c6; }
 
   /* Publication list */
   .pubs { border-top-color: #1e293b; }
