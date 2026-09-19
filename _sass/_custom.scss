@@ -510,10 +510,10 @@ svg.icon:not(.icon--brand) {
 
 /* ---------- Recruiter-facing homepage blocks ---------- */
 /* ---------- Korean intro ---------- */
-/* Karla/Fraunces carry no Hangul, so name a Korean face before the generic
-   fallback; keep-all stops words breaking mid-syllable at line ends. */
+/* Inherits the body's Karla stack so Latin text matches the English intro;
+   Hangul falls through to the system face. keep-all stops words breaking
+   mid-syllable at line ends. */
 .intro-ko {
-  font-family: "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", "Malgun Gothic", $sans-serif;
   word-break: keep-all;
   overflow-wrap: anywhere;
 }
