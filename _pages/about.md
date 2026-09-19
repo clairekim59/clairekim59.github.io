@@ -134,6 +134,14 @@ Full list on my [Google Scholar profile]({{ site.author.googlescholar }}). **Bol
   </div>
 
   <div class="pub">
+    <span class="pub__venue">Under review<span class="pub__year">2026</span></span>
+    <span class="pub__body">
+      <span class="pub__title">Increasing Transparency of LLM Systems Does Not Always Improve People's Verification Behavior and Performance: Results from an Empirical Study of AI-Assisted Intelligence Analysis Reporting</span>
+      <span class="pub__authors">Felix Gröner, Michelle V. Mancenido, <strong>Nayoung Kim</strong>, Emily Summers, Erin K. Chiou</span>
+    </span>
+  </div>
+
+  <div class="pub">
     <span class="pub__venue">AI Magazine<span class="pub__year">2025</span></span>
     <span class="pub__body">
       <span class="pub__title">PADTHAI-MM: A Principled Approach for the Design of Trustworthy, Human-Centered AI Systems Using the MAST Methodology</span>

@@ -62,6 +62,10 @@ A complete list is also available on my [Google Scholar profile]({{ site.author.
 
 <div class="resource-links" markdown="0"><a class="btn btn--accent-outline" href="https://arxiv.org/abs/2608.25379">Preprint</a> <a class="btn btn--accent-outline" href="https://github.com/clairekim59/adaptive-triggering">Code</a></div>
 
+**Increasing Transparency of LLM Systems Does Not Always Improve People's Verification Behavior and Performance: Results from an Empirical Study of AI-Assisted Intelligence Analysis Reporting**\
+Felix Gröner, Michelle V. Mancenido, **Nayoung Kim**, Emily Summers, Erin K. Chiou\
+*Under review at Human Factors, 2026.*
+
 ### 2025
 
 **PADTHAI-MM: A Principled Approach for the Design of Trustworthy, Human-Centered AI systems using the MAST Methodology**\
