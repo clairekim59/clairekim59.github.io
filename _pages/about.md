@@ -29,7 +29,7 @@ Alongside the research, I have built enterprise AI systems at Amazon and AMD: la
 
 안녕하세요, AI와 LLM의 evaluation, 신뢰성, 공정성, 그리고 인간 중심 AI를 연구하는 김나영입니다. 애리조나 주립대학교에서 컴퓨터과학 박사과정을 밟고 있으며, 2026년 12월 졸업 예정입니다. [Data Mining and Machine Learning Lab](https://dmml.asu.edu/)에서 Huan Liu 교수님, Mickey Mancenido 교수님의 지도 아래 신뢰할 수 있는 LLM 시스템을 구축하고 평가하는 연구를 하고 있습니다. 
 
-연구와 더불어 Amazon과 AMD에서 엔터프라이즈 AI 시스템을 개발했습니다. GPU 인프라 기반의 대규모 LLM 학습·추론·평가 파이프라인, 에이전트 및 RAG 아키텍처, 사후 학습과 정렬(RLHF, LoRA, PEFT), 그리고 이를 프로덕션에서 안정적으로 운영하기 위한 대규모 ML 플랫폼을 구축한 경험이 있습니다. 더 자세한 사항은 제 CV를 참고해주세요. 읽어주셔서 감사합니다!
+연구와 더불어 Amazon과 AMD에서 엔터프라이즈 AI 시스템을 개발했습니다. GPU 인프라 기반의 대규모 LLM 학습·추론·평가 파이프라인, 에이전트 및 RAG 아키텍처, 사후 학습과 정렬(RLHF, LoRA, PEFT), 그리고 이를 프로덕션에서 안정적으로 운영하기 위한 ML 플랫폼을 구축한 경험이 있습니다. 더 자세한 사항은 제 CV를 참고해주세요. 읽어주셔서 감사합니다!
 
 </div>
 
