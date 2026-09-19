@@ -1570,37 +1570,6 @@ body {
 
 @media (prefers-reduced-motion: reduce) {
   .availability__dot:after { animation: none; }
-  .stat,
-  .page__content .proj,
-  .proj > summary:after,
-  .pubs { border-top-color: #1e293b; }
-
-  .pub {
-    border-bottom-color: #1e293b;
-
-    &:hover { background: rgba(240, 183, 198, 0.05); }
-  }
-
-  .pub__venue { color: #f0b7c6; }
-  .pub__year { color: #94a3b8; }
-  .pub__title { color: #93c5fd; }
-
-  .pub__authors {
-    color: #94a3b8;
-    strong { color: #e2e8f0; }
-  }
-
-  .pub__links a {
-    border-color: rgba(147, 197, 253, 0.35) !important;
-    color: #bfdbfe !important;
-
-    &:hover {
-      background: rgba(240, 183, 198, 0.12);
-      border-color: rgba(240, 183, 198, 0.5) !important;
-      color: #f0b7c6 !important;
-    }
-  }
-
   .scroll-progress span { transition: none; }
   .stat:hover,
   .page__content .proj:hover { transform: none; }
@@ -1819,6 +1788,35 @@ body {
 
   .proj__title { color: #93c5fd; }
   .proj__lede { color: #94a3b8; }
+
+  /* Publication list */
+  .pubs { border-top-color: #1e293b; }
+
+  .pub {
+    border-bottom-color: #1e293b;
+
+    &:hover { background: rgba(240, 183, 198, 0.05); }
+  }
+
+  .pub__venue { color: #f0b7c6; }
+  .pub__year { color: #94a3b8; }
+  .pub__title { color: #93c5fd; }
+
+  .pub__authors {
+    color: #94a3b8;
+    strong { color: #e2e8f0; }
+  }
+
+  .pub__links a {
+    border-color: rgba(147, 197, 253, 0.35) !important;
+    color: #bfdbfe !important;
+
+    &:hover {
+      background: rgba(240, 183, 198, 0.12);
+      border-color: rgba(240, 183, 198, 0.5) !important;
+      color: #f0b7c6 !important;
+    }
+  }
 
   .proj__status {
     background: rgba(240, 183, 198, 0.12);
