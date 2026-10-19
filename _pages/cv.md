@@ -25,7 +25,7 @@ Education
 
 Experience
 ------
-* **Sep 2026 – Present** &mdash; Applied AI Engineer, [Cognizant](https://www.cognizant.com/), Remote
+* **Sep 2026 – Present** &mdash; Applied AI Scientist, [Cognizant](https://www.cognizant.com/), Remote
   * Building an enterprise AI platform for a Fortune 500 telecom client, including an SLM-based smart router for LLM routing.
 * **Sep 2025 – Dec 2025** &mdash; Applied Scientist Intern, [Amazon](https://logistics.amazon.com/), Bellevue WA
   * Improved production sentiment forecasting models supporting community operations by developing advanced sequence modeling approaches and improving prediction robustness at scale.
