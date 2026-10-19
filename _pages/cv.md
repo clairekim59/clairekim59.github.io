@@ -116,6 +116,7 @@ Technical Skills
 
 Talks
 ------
+* **KGSA Mentoring Day** (invited mentor & speaker), Korean Graduate Student Association, Arizona State University &mdash; October 17, 2026
 * **Machine Learning Day 2024**, Arizona State University, West Valley Campus &mdash; April 26, 2024
 * **SCAI AI Day**, Arizona State University &mdash; November 17, 2023
 
