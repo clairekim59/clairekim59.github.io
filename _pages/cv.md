@@ -26,6 +26,7 @@ Education
 Experience
 ------
 * **Sep 2026 – Present** &mdash; Applied AI Engineer, [Cognizant](https://www.cognizant.com/), Remote
+  * Building an SLM-based smart router that uses small language models to route each request to the most suitable model.
 * **Sep 2025 – Dec 2025** &mdash; Applied Scientist Intern, [Amazon](https://logistics.amazon.com/), Bellevue WA
   * Improved production sentiment forecasting models supporting community operations by developing advanced sequence modeling approaches and improving prediction robustness at scale.
   * Designed and productionized an end-to-end ML pipeline spanning data collection, model training, experiment tracking, automated deployment, and monitoring using Python, AWS, MLflow, and CI/CD pipelines.
