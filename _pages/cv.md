@@ -15,13 +15,14 @@ redirect_from:
 
 Education
 ------
-* **Ph.D. in Computer Science**, Arizona State University &mdash; 2021 – 2026
+* **Ph.D. in Computer Science**, Arizona State University, Tempe AZ &mdash; 2021 – 2026
   * [Data Mining and Machine Learning Lab](https://dmml.asu.edu/)
   * Advisors: Dr. Huan Liu and Dr. Mickey Mancenido
   * Funded by [DHS-CAOE](https://caoe.asu.edu/)
-* **M.E. in Computer Science & Engineering**, Korea University, Seoul &mdash; 2017 - 2019
+* **M.E. in Computer Science & Engineering**, Korea University, Seoul &mdash; 2017 – 2019
+  * [Data Mining and Information Systems (DMIS) Lab](https://dmis.korea.ac.kr/)
   * Advisor: Dr. Jaewoo Kang
-* **B.S. in Computer Science & Engineering**, Korea University, Seoul &mdash; 2013 - 2017
+* **B.S. in Computer Science & Engineering**, Korea University, Seoul &mdash; 2013 – 2017
 
 Experience
 ------
@@ -107,13 +108,14 @@ Lu Cheng, **Nayoung Kim**, Huan Liu\
 
 Technical Skills
 ------
-* **Large language models & agents** &mdash; Retrieval-Augmented Generation (RAG), agentic AI, multi-agent systems, LangChain / LangGraph, LlamaIndex, LLM-as-a-judge, prompt engineering, synthetic data generation, inference-time scaling
-* **Model training & alignment** &mdash; model alignment, post-training, RLHF, RLAIF, LoRA, PEFT, responsible AI, AI safety
+* **Large language models & agents** &mdash; Retrieval-Augmented Generation (RAG), agentic AI, multi-agent systems, LangChain / LangGraph, LlamaIndex, LLM-as-a-judge, prompt engineering, synthetic data generation, inference-time scaling, LLM routing, small language models (SLMs)
+* **Model training & alignment** &mdash; model alignment, post-training, SFT, RLHF, RLAIF, LoRA, PEFT, responsible AI, AI safety
 * **Retrieval & search** &mdash; vector search, knowledge retrieval, embeddings, FAISS / Chroma, Elasticsearch
-* **Machine learning** &mdash; PyTorch, TensorFlow, Scikit-Learn, Hugging Face, Pandas, NumPy
-* **Cloud & deployment** &mdash; AWS, GCP, Docker, MLflow, WandB, TensorRT, model serving, GPU optimization, CI/CD
-* **Software engineering** &mdash; Flask, Node.js, REST APIs, Git, Linux, unit testing
+* **Machine learning** &mdash; PyTorch, TensorFlow, JAX, Hugging Face Transformers, Scikit-Learn, Pandas, NumPy
+* **Cloud & deployment** &mdash; AWS (SageMaker, S3, Lambda), GCP, Docker, MLflow, WandB, TensorRT, model serving, GPU optimization, CI/CD
+* **Software engineering** &mdash; Flask, Node.js, Streamlit, REST APIs, Git, Linux, unit testing
 * **Languages** &mdash; Python, SQL, Java, JavaScript, Bash
+* **Methods** &mdash; change-point detection (CUSUM), Bayesian inference, uncertainty quantification, statistical analysis, human-subject study design
 
 Talks
 ------

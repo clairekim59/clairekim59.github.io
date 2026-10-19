@@ -9,19 +9,18 @@ redirect_from:
   - /profile/
   - /projects/
   - /projects/devs/
-  - /talks/
 ---
 
 {% include hero.html %}
 
 <div class="stats" markdown="0">
-  <div class="stat"><span class="stat__num">2026</span><span class="stat__label">CS Ph.D., Arizona State (Nov)</span></div>
+  <div class="stat"><span class="stat__num">2026</span><span class="stat__label">CS Ph.D., Arizona State (Dec)</span></div>
   <div class="stat"><span class="stat__num">4</span><span class="stat__label">industry roles<br>Cognizant &middot; Amazon &middot; AMD</span></div>
   <div class="stat"><span class="stat__num">304</span><span class="stat__label">participants in my largest human-subject study</span></div>
   <div class="stat"><span class="stat__num">10</span><span class="stat__label">research projects since 2017</span></div>
 </div>
 
-I am **Claire (Nayoung) Kim**, a Computer Science Ph.D. candidate at the [School of Computing and Augmented Intelligence (SCAI)](https://scai.engineering.asu.edu/) at Arizona State University, graduating expected in December 2026. I work in the [Data Mining and Machine Learning Lab](https://dmml.asu.edu/) with Dr. Huan Liu and Dr. Mickey Mancenido, building and evaluating trustworthy LLM systems &mdash; fairness and bias mitigation, hallucination, robustness, and human-centered AI evaluation.
+I am **Claire (Nayoung) Kim**, a Computer Science Ph.D. candidate at the [School of Computing and Augmented Intelligence (SCAI)](https://scai.engineering.asu.edu/) at Arizona State University, expected to graduate in December 2026. I work in the [Data Mining and Machine Learning Lab](https://dmml.asu.edu/) with Dr. Huan Liu and Dr. Mickey Mancenido, building and evaluating trustworthy LLM systems &mdash; fairness and bias mitigation, hallucination, robustness, and human-centered AI evaluation.
 
 Alongside the research, I have built enterprise AI systems at Amazon and AMD: large-scale LLM training, inference, and evaluation pipelines on GPU infrastructure, agentic and RAG architectures, post-training and alignment (RLHF, LoRA, PEFT), and the ML platforms that keep them running in production. I am currently an Applied AI Scientist at [Cognizant](https://www.cognizant.com/), building an enterprise AI platform for a Fortune 500 telecom client, including an SLM-based smart router for LLM routing.
 
@@ -81,11 +80,14 @@ Skills
   <span class="skill-pill">LLM-as-a-judge</span>
   <span class="skill-pill">Prompt engineering</span>
   <span class="skill-pill">Synthetic data generation</span>
-  <span class="skill-pill">Inference-time scaling</span></div></div>
+  <span class="skill-pill">Inference-time scaling</span>
+  <span class="skill-pill">LLM routing</span>
+  <span class="skill-pill">Small language models (SLMs)</span></div></div>
   <div class="skill-row"><div class="skill-label">Training &amp; alignment</div><div class="skill-list"><span class="skill-pill">PyTorch</span>
   <span class="skill-pill">TensorFlow</span>
   <span class="skill-pill">JAX</span>
   <span class="skill-pill">Hugging Face</span>
+  <span class="skill-pill">Scikit-Learn</span>
   <span class="skill-pill">Transformers</span>
   <span class="skill-pill">Post-training</span>
   <span class="skill-pill">SFT</span>
@@ -111,6 +113,7 @@ Skills
   <span class="skill-pill">Java</span>
   <span class="skill-pill">JavaScript</span>
   <span class="skill-pill">Bash</span>
+  <span class="skill-pill">Pandas / NumPy</span>
   <span class="skill-pill">Flask</span>
   <span class="skill-pill">Node.js</span>
   <span class="skill-pill">Streamlit</span>
