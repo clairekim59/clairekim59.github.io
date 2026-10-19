@@ -873,6 +873,19 @@ html {
       transform: scale(1.2);
     }
   }
+
+  /* Small org logo before company names (homepage only) */
+  .org-logo {
+    display: inline-block;
+    width: 1.15em;
+    height: 1.15em;
+    margin: 0 0.3em 0 0.1em;
+    padding: 1px;
+    vertical-align: -0.22em;
+    object-fit: contain;
+    background: #fff; /* keeps dark logos visible in dark mode */
+    border-radius: 3px;
+  }
 }
 
 /* ---------- Theme toggle button ---------- */

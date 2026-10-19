@@ -28,9 +28,7 @@ Alongside the research, I have built enterprise AI systems at Amazon and AMD: la
 
 <div class="intro-ko" lang="ko" markdown="1">
 
-안녕하세요, AI와 LLM의 evaluation, 신뢰성, 공정성, 그리고 인간 중심 AI를 연구하는 김나영입니다. 애리조나 주립대학교에서 컴퓨터과학 박사과정을 밟고 있으며, 2026년 12월 졸업 예정입니다. [Data Mining and Machine Learning Lab](https://dmml.asu.edu/)에서 Huan Liu 교수님, Mickey Mancenido 교수님의 지도 아래 신뢰할 수 있는 LLM 시스템을 구축하고 평가하는 연구를 하고 있습니다. 이전에는 고려대학교에서 컴퓨터학과 학사 및 석사 학위를 취득하였습니다.
-
-연구와 더불어 Amazon과 AMD에서 엔터프라이즈 AI 시스템을 개발했습니다. GPU 인프라 기반의 대규모 LLM 학습·추론·평가 파이프라인, 에이전트 및 RAG 아키텍처, 사후 학습과 정렬(RLHF, LoRA, PEFT), 그리고 이를 프로덕션에서 안정적으로 운영하기 위한 ML 플랫폼을 구축한 경험이 있습니다. 현재는 Cognizant에서 Applied AI Scientist로 일하며, Fortune 500 통신사 클라이언트의 엔터프라이즈 AI 플랫폼을 구축하고 있습니다. 그중 SLM 기반 LLM 라우팅 개발에 참여하고 있습니다. 더 자세한 사항은 제 CV를 참고해주세요. 읽어주셔서 감사합니다!
+안녕하세요, AI와 LLM의 evaluation, 신뢰성, 공정성, 그리고 인간 중심 AI를 연구하는 김나영입니다. 애리조나 주립대학교에서 컴퓨터과학 박사과정을 밟고 있으며, 2026년 12월 졸업 예정입니다. [Data Mining and Machine Learning Lab](https://dmml.asu.edu/)에서 Huan Liu 교수님, Mickey Mancenido 교수님의 지도 아래 신뢰할 수 있는 LLM 시스템을 디자인하고 평가하는 연구를 하고 있습니다. 이전에는 고려대학교에서 컴퓨터학과 학사 및 석사 학위를 취득하였습니다.
 
 </div>
 
@@ -47,14 +45,14 @@ Experience
 
 <div class="timeline" markdown="1">
 
-* **Applied AI Scientist**, [Cognizant](https://www.cognizant.com/) &mdash; Remote · Sep 2026 – Present
-* **Applied Scientist Intern**, [Amazon](https://logistics.amazon.com/) &mdash; Bellevue, WA · Sep – Dec 2025
-* **AI/ML Intern**, [AMD](https://www.amd.com/en.html) &mdash; Austin, TX · May – Aug 2025
-* **Software Development Intern**, [AMD](https://www.amd.com/en.html) &mdash; Austin, TX · Aug – Dec 2024
-* **Graduate Research Assistant**, [DHS-CAOE](https://caoe.asu.edu/) &mdash; Tempe, AZ · May 2022 – Aug 2024
-* **Graduate Research Assistant**, Office of Naval Research project, ASU &mdash; Tempe, AZ · Jan 2021 – Aug 2022
-* **Research Assistant**, ASU × [Mathpresso](https://mathpresso.com/en) &mdash; Tempe, AZ · Jan – May 2021
-* **Research Assistant**, [Korea University DMIS Lab](https://dmis.korea.ac.kr/) &mdash; Seoul, Republic of Korea · Mar 2017 – Feb 2019
+* **Applied AI Scientist**, <img class="org-logo" src="{{ base_path }}/images/logos/cognizant.png" alt="">[Cognizant](https://www.cognizant.com/) &mdash; Remote · Sep 2026 – Present
+* **Applied Scientist Intern**, <img class="org-logo" src="{{ base_path }}/images/logos/amazon.png" alt="">[Amazon](https://logistics.amazon.com/) &mdash; Bellevue, WA · Sep – Dec 2025
+* **AI/ML Intern**, <img class="org-logo" src="{{ base_path }}/images/logos/amd.svg" alt="">[AMD](https://www.amd.com/en.html) &mdash; Austin, TX · May – Aug 2025
+* **Software Development Intern**, <img class="org-logo" src="{{ base_path }}/images/logos/amd.svg" alt="">[AMD](https://www.amd.com/en.html) &mdash; Austin, TX · Aug – Dec 2024
+* **Graduate Research Assistant**, <img class="org-logo" src="{{ base_path }}/images/logos/asu.png" alt="">[DHS-CAOE](https://caoe.asu.edu/) &mdash; Tempe, AZ · May 2022 – Aug 2024
+* **Graduate Research Assistant**, <img class="org-logo" src="{{ base_path }}/images/logos/asu.png" alt="">Office of Naval Research project, ASU &mdash; Tempe, AZ · Jan 2021 – Aug 2022
+* **Research Assistant**, <img class="org-logo" src="{{ base_path }}/images/logos/asu.png" alt="">ASU × <img class="org-logo" src="{{ base_path }}/images/logos/mathpresso.png" alt="">[Mathpresso](https://mathpresso.com/en) &mdash; Tempe, AZ · Jan – May 2021
+* **Research Assistant**, <img class="org-logo" src="{{ base_path }}/images/logos/korea-university.png" alt="">[Korea University DMIS Lab](https://dmis.korea.ac.kr/) &mdash; Seoul, Republic of Korea · Mar 2017 – Feb 2019
 
 </div>
 
