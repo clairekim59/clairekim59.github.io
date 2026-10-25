@@ -28,7 +28,7 @@ Alongside the research, I have built enterprise AI systems at Amazon and AMD: la
 
 <div class="intro-ko" lang="ko" markdown="1">
 
-안녕하세요, AI와 LLM의 evaluation, 신뢰성, 공정성, 그리고 인간 중심 AI를 연구하는 김나영입니다. 애리조나 주립대학교에서 컴퓨터과학 박사과정을 밟고 있으며, 2026년 12월 졸업 예정입니다. [Data Mining and Machine Learning Lab](https://dmml.asu.edu/)에서 Huan Liu 교수님, Mickey Mancenido 교수님의 지도 아래 신뢰할 수 있는 LLM 시스템을 디자인하고 평가하는 연구를 하고 있습니다. 이전에는 고려대학교에서 컴퓨터학과 학사 및 석사 학위를 취득하였습니다.
+안녕하세요, AI와 LLM의 evaluation, 신뢰성, 공정성, 그리고 인간 중심 AI를 연구하는 김나영입니다. 애리조나 주립대학교에서 컴퓨터과학 박사과정을 밟고 있으며, 2026년 12월 졸업 예정입니다. [Data Mining and Machine Learning Lab](https://dmml.asu.edu/)에서 Huan Liu 교수님, Mickey Mancenido 교수님의 지도 아래 신뢰할 수 있는 LLM 시스템을 디자인하고 평가하는 연구를 하고 있습니다. 이전에는 고려대학교에서 컴퓨터학 학사 및 석사 학위를 취득하였습니다.
 
 </div>
 
